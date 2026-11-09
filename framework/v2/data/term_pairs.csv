@@ -1,0 +1,173 @@
+Term_Pair_ID,Term_Pair_Text,Gold_Label,Split,Study,Source,Original_Linguistic,Original_Content,Original_Terminology
+TP001,building-architectural element,positive,train,Study1,NounMatching,0.9,0.2667,0.2667
+TP002,building-drone,negative,train,Study1,NounMatching,0.22,0.22,0.22
+TP003,building-emergency information,negative,train,Study1,NounMatching,0.2667,0.2667,0.2667
+TP004,building-escape route,negative,test,Study1,NounMatching,0.2667,0.2667,0.2667
+TP005,building-facade,positive,train,Study1,NounMatching,0.22,0.9,0.22
+TP006,building-parachute,negative,train,Study1,NounMatching,0.22,0.22,0.22
+TP007,building-people,negative,train,Study1,NounMatching,0.15,0.15,0.15
+TP008,building-person,negative,train,Study1,NounMatching,0.15,0.15,0.15
+TP009,building-room,positive,test,Study1,NounMatching,0.22,0.9,0.22
+TP010,building-structure,positive,train,Study1,NounMatching,0.22,0.9,0.22
+TP011,building-window,positive,train,Study1,NounMatching,0.22,0.9,0.22
+TP012,drone-architectural element,negative,train,Study1,NounMatching,0.3,0.3,0.3
+TP013,emergency information-architectural element,negative,train,Study1,NounMatching,0.325,0.325,0.325
+TP014,emergency information-drone,negative,test,Study1,NounMatching,0.3,0.3,0.3
+TP015,emergency information-escape route,negative,train,Study1,NounMatching,0.325,0.325,0.325
+TP016,emergency information-facade,negative,train,Study1,NounMatching,0.3,0.3,0.3
+TP017,emergency information-parachute,negative,train,Study1,NounMatching,0.3,0.3,0.3
+TP018,emergency information-people,negative,train,Study1,NounMatching,0.2667,0.2667,0.2667
+TP019,emergency information-person,negative,test,Study1,NounMatching,0.2667,0.2667,0.2667
+TP020,emergency information-room,negative,train,Study1,NounMatching,0.3,0.3,0.3
+TP021,emergency information-structure,negative,train,Study1,NounMatching,0.3,0.3,0.3
+TP022,emergency information-window,negative,train,Study1,NounMatching,0.3,0.3,0.3
+TP023,escape route-architectural element,negative,train,Study1,NounMatching,0.325,0.325,0.325
+TP024,escape route-drone,negative,test,Study1,NounMatching,0.3,0.3,0.3
+TP025,escape route-facade,negative,train,Study1,NounMatching,0.3,0.3,0.3
+TP026,escape route-people,negative,train,Study1,NounMatching,0.2667,0.2667,0.2667
+TP027,escape route-person,negative,train,Study1,NounMatching,0.2667,0.2667,0.2667
+TP028,escape route-room,negative,train,Study1,NounMatching,0.3,0.3,0.3
+TP029,escape route-structure,negative,test,Study1,NounMatching,0.3,0.3,0.3
+TP030,escape route-window,negative,train,Study1,NounMatching,0.3,0.3,0.3
+TP031,facade-architectural element,positive,train,Study1,NounMatching,0.9,0.3,0.3
+TP032,facade-drone,negative,train,Study1,NounMatching,0.2667,0.2667,0.2667
+TP033,facade-people,negative,train,Study1,NounMatching,0.22,0.22,0.22
+TP034,facade-person,negative,test,Study1,NounMatching,0.22,0.22,0.22
+TP035,facade-room,positive,train,Study1,NounMatching,0.2667,0.9,0.2667
+TP036,facade-structure,positive,train,Study1,NounMatching,0.9,0.2667,0.2667
+TP037,facade-window,positive,train,Study1,NounMatching,0.2667,0.9,0.2667
+TP038,parachute-architectural element,negative,train,Study1,NounMatching,0.3,0.3,0.3
+TP039,parachute-drone,negative,test,Study1,NounMatching,0.2667,0.2667,0.2667
+TP040,parachute-escape route,negative,train,Study1,NounMatching,0.3,0.3,0.3
+TP041,parachute-facade,negative,train,Study1,NounMatching,0.2667,0.2667,0.2667
+TP042,parachute-people,negative,train,Study1,NounMatching,0.22,0.22,0.22
+TP043,parachute-person,negative,train,Study1,NounMatching,0.22,0.22,0.22
+TP044,parachute-room,negative,test,Study1,NounMatching,0.2667,0.2667,0.2667
+TP045,parachute-structure,negative,train,Study1,NounMatching,0.2667,0.2667,0.2667
+TP046,parachute-window,negative,train,Study1,NounMatching,0.2667,0.2667,0.2667
+TP047,people-architectural element,negative,train,Study1,NounMatching,0.2667,0.2667,0.2667
+TP048,people-drone,negative,train,Study1,NounMatching,0.22,0.22,0.22
+TP049,people-person,positive,test,Study1,NounMatching,0.9,0.9,0.9
+TP050,people-room,negative,train,Study1,NounMatching,0.22,0.22,0.22
+TP051,people-structure,negative,train,Study1,NounMatching,0.22,0.22,0.22
+TP052,people-window,negative,train,Study1,NounMatching,0.22,0.22,0.22
+TP053,person-architectural element,negative,train,Study1,NounMatching,0.2667,0.2667,0.2667
+TP054,person-drone,negative,test,Study1,NounMatching,0.22,0.22,0.22
+TP055,person-room,negative,train,Study1,NounMatching,0.22,0.22,0.22
+TP056,person-structure,negative,train,Study1,NounMatching,0.22,0.22,0.22
+TP057,person-window,negative,train,Study1,NounMatching,0.22,0.22,0.22
+TP058,room-architectural element,positive,train,Study1,NounMatching,0.9,0.3,0.3
+TP059,room-drone,negative,test,Study1,NounMatching,0.2667,0.2667,0.2667
+TP060,room-structure,positive,train,Study1,NounMatching,0.9,0.2667,0.2667
+TP061,room-window,positive,train,Study1,NounMatching,0.2667,0.9,0.2667
+TP062,structure-architectural element,positive,train,Study1,NounMatching,0.9,0.3,0.3
+TP063,structure-drone,negative,train,Study1,NounMatching,0.2667,0.2667,0.2667
+TP064,structure-window,positive,test,Study1,NounMatching,0.9,0.2667,0.2667
+TP065,window-architectural element,positive,train,Study1,NounMatching,0.9,0.3,0.3
+TP066,window-drone,negative,train,Study1,NounMatching,0.2667,0.2667,0.2667
+TP067,architectural element-emergency radio,negative,train,Study1,NounMatching,0.325,0.325,0.325
+TP068,architectural element-emergency TV,negative,train,Study1,NounMatching,0.325,0.325,0.325
+TP069,building-emergency radio,negative,test,Study1,NounMatching,0.2667,0.2667,0.2667
+TP070,building-emergency TV,negative,train,Study1,NounMatching,0.2667,0.2667,0.2667
+TP071,drone-emergency radio,negative,train,Study1,NounMatching,0.3,0.3,0.3
+TP072,drone-emergency TV,negative,train,Study1,NounMatching,0.3,0.3,0.3
+TP073,emergency information-emergency radio,positive,train,Study1,NounMatching,0.9,0.3,0.3
+TP074,emergency information-emergency TV,positive,test,Study1,NounMatching,0.9,0.3,0.3
+TP075,emergency radio-emergency TV,positive,train,Study1,NounMatching,0.9,0.9,0.3
+TP076,escape route-emergency radio,negative,train,Study1,NounMatching,0.325,0.325,0.325
+TP077,escape route-emergency TV,negative,train,Study1,NounMatching,0.325,0.325,0.325
+TP078,facade-emergency radio,negative,train,Study1,NounMatching,0.3,0.3,0.3
+TP079,facade-emergency TV,negative,test,Study1,NounMatching,0.3,0.3,0.3
+TP080,parachute-emergency radio,negative,train,Study1,NounMatching,0.3,0.3,0.3
+TP081,parachute-emergency TV,negative,train,Study1,NounMatching,0.3,0.3,0.3
+TP082,people-emergency radio,negative,train,Study1,NounMatching,0.2667,0.2667,0.2667
+TP083,people-emergency TV,negative,train,Study1,NounMatching,0.2667,0.2667,0.2667
+TP084,person-emergency radio,negative,test,Study1,NounMatching,0.2667,0.2667,0.2667
+TP085,person-emergency TV,negative,train,Study1,NounMatching,0.2667,0.2667,0.2667
+TP086,room-emergency radio,negative,train,Study1,NounMatching,0.3,0.3,0.3
+TP087,room-emergency TV,negative,train,Study1,NounMatching,0.3,0.3,0.3
+TP088,structure-emergency radio,negative,train,Study1,NounMatching,0.3,0.3,0.3
+TP089,structure-emergency TV,negative,test,Study1,NounMatching,0.3,0.3,0.3
+TP090,window-emergency radio,negative,train,Study1,NounMatching,0.3,0.3,0.3
+TP091,window-emergency TV,negative,train,Study1,NounMatching,0.3,0.3,0.3
+TP092,activate-identify,negative,train,Study1,VerbMatching,0.2667,0.2667,0.2667
+TP093,activate-work,positive,train,Study1,VerbMatching,0.9,0.9,0.9
+TP094,identify-work,negative,test,Study1,VerbMatching,0.2667,0.2667,0.2667
+TP095,activate-display,negative,train,Study1,VerbMatching,0.2667,0.2667,0.2667
+TP096,identify-display,negative,train,Study1,VerbMatching,0.2667,0.2667,0.2667
+TP097,work-display,negative,train,Study1,VerbMatching,0.2667,0.2667,0.2667
+TP098,activate-is a,negative,train,Study1,VerbMatching,0.22,0.22,0.22
+TP099,identify-is a,negative,test,Study1,VerbMatching,0.22,0.22,0.22
+TP100,work-is a,negative,train,Study1,VerbMatching,0.22,0.22,0.22
+TP101,display-is a,negative,train,Study1,VerbMatching,0.22,0.22,0.22
+TP102,activate-consist,negative,train,Study1,VerbMatching,0.2667,0.2667,0.2667
+TP103,identify-consist,negative,train,Study1,VerbMatching,0.2667,0.2667,0.2667
+TP104,work-consist,negative,test,Study1,VerbMatching,0.2667,0.2667,0.2667
+TP105,display-consist,negative,train,Study1,VerbMatching,0.2667,0.2667,0.2667
+TP106,is a-consist,positive,train,Study1,VerbMatching,0.9,0.22,0.22
+TP107,activate-compose,negative,train,Study1,VerbMatching,0.2667,0.2667,0.2667
+TP108,identify-compose,negative,train,Study1,VerbMatching,0.2667,0.2667,0.2667
+TP109,work-compose,negative,test,Study1,VerbMatching,0.2667,0.2667,0.2667
+TP110,display-compose,negative,train,Study1,VerbMatching,0.2667,0.2667,0.2667
+TP111,is a-compose,positive,train,Study1,VerbMatching,0.9,0.22,0.22
+TP112,consist-compose,positive,train,Study1,VerbMatching,0.9,0.9,0.9
+TP113,activate-show,negative,train,Study1,VerbMatching,0.2667,0.2667,0.2667
+TP114,identify-show,negative,test,Study1,VerbMatching,0.2667,0.2667,0.2667
+TP115,work-show,negative,train,Study1,VerbMatching,0.2667,0.2667,0.2667
+TP116,display-show,positive,train,Study1,VerbMatching,0.9,0.9,0.9
+TP117,is a-show,negative,train,Study1,VerbMatching,0.22,0.22,0.22
+TP118,consist-show,negative,train,Study1,VerbMatching,0.2667,0.2667,0.2667
+TP119,compose-show,negative,test,Study1,VerbMatching,0.2667,0.2667,0.2667
+TP120,activate-function,positive,train,Study1,VerbMatching,0.9,0.9,0.9
+TP121,identify-function,negative,train,Study1,VerbMatching,0.2667,0.2667,0.2667
+TP122,work-function,positive,train,Study1,VerbMatching,0.9,0.9,0.9
+TP123,display-function,negative,train,Study1,VerbMatching,0.2667,0.2667,0.2667
+TP124,is a-function,negative,test,Study1,VerbMatching,0.22,0.22,0.22
+TP125,consist-function,negative,train,Study1,VerbMatching,0.2667,0.2667,0.2667
+TP126,compose-function,negative,train,Study1,VerbMatching,0.2667,0.2667,0.2667
+TP127,show-function,negative,train,Study1,VerbMatching,0.2667,0.2667,0.2667
+TP128,that changes its structure to a party zone - secures people jumping out of a window,negative,train,Study4,SentenceMatching,0.3833,0.3833,0.3833
+TP129,that changes its structure to a party zone - Clouds then hover to the ground,negative,test,Study4,SentenceMatching,0.3727,0.3727,0.3727
+TP130,secures people jumping out of a window - Clouds then hover to the ground,negative,train,Study4,SentenceMatching,0.3727,0.3727,0.3727
+TP131,that changes its structure to a party zone - Extinguishing of a fire by deoxygenation,negative,train,Study4,SentenceMatching,0.3727,0.3727,0.3727
+TP132,secures people jumping out of a window - Extinguishing of a fire by deoxygenation,negative,train,Study4,SentenceMatching,0.3727,0.3727,0.3727
+TP133,Clouds then hover to the ground - Extinguishing of a fire by deoxygenation,negative,train,Study4,SentenceMatching,0.36,0.36,0.36
+TP134,that changes its structure to a party zone - Exit/Communication to the outside,negative,test,Study4,SentenceMatching,0.3727,0.3727,0.3727
+TP135,secures people jumping out of a window - Exit/Communication to the outside,negative,train,Study4,SentenceMatching,0.3727,0.3727,0.3727
+TP136,Clouds then hover to the ground - Exit/Communication to the outside,negative,train,Study4,SentenceMatching,0.36,0.36,0.36
+TP137,Extinguishing of a fire by deoxygenation - Exit/Communication to the outside,negative,train,Study4,SentenceMatching,0.36,0.36,0.36
+TP138,that changes its structure to a party zone - Shows escape routes and absorbes smoke,negative,train,Study4,SentenceMatching,0.3923,0.3923,0.3923
+TP139,secures people jumping out of a window - Shows escape routes and absorbes smoke,negative,test,Study4,SentenceMatching,0.3923,0.3923,0.3923
+TP140,Clouds then hover to the ground - Shows escape routes and absorbes smoke,negative,train,Study4,SentenceMatching,0.3833,0.3833,0.3833
+TP141,Extinguishing of a fire by deoxygenation - Shows escape routes and absorbes smoke,negative,train,Study4,SentenceMatching,0.3833,0.3833,0.3833
+TP142,Exit/Communication to the outside - Shows escape routes and absorbes smoke,negative,train,Study4,SentenceMatching,0.3833,0.3833,0.3833
+TP143,that changes its structure to a party zone - shows person position,negative,train,Study4,SentenceMatching,0.36,0.36,0.36
+TP144,secures people jumping out of a window - shows person position,negative,test,Study4,SentenceMatching,0.36,0.36,0.36
+TP145,Clouds then hover to the ground - shows person position,negative,train,Study4,SentenceMatching,0.3444,0.3444,0.3444
+TP146,Extinguishing of a fire by deoxygenation - shows person position,negative,train,Study4,SentenceMatching,0.3444,0.3444,0.3444
+TP147,Exit/Communication to the outside - shows person position,negative,train,Study4,SentenceMatching,0.3444,0.3444,0.3444
+TP148,Shows escape routes and absorbes smoke - shows person position,negative,train,Study4,SentenceMatching,0.36,0.36,0.36
+TP149,that changes its structure to a party zone - paints the exit path,negative,test,Study4,SentenceMatching,0.3727,0.3727,0.3727
+TP150,secures people jumping out of a window - paints the exit path,negative,train,Study4,SentenceMatching,0.3727,0.3727,0.3727
+TP151,Clouds then hover to the ground - paints the exit path,negative,train,Study4,SentenceMatching,0.36,0.36,0.36
+TP152,Extinguishing of a fire by deoxygenation - paints the exit path,negative,train,Study4,SentenceMatching,0.36,0.36,0.36
+TP153,Exit/Communication to the outside - paints the exit path,positive,train,Study4,SentenceMatching,0.3444,0.9,0.3444
+TP154,Shows escape routes and absorbes smoke - paints the exit path,positive,test,Study4,SentenceMatching,0.3833,0.9,0.3833
+TP155,shows person position - paints the exit path,negative,train,Study4,SentenceMatching,0.3444,0.3444,0.3444
+TP156,that changes its structure to a party zone - indicates the escape route,negative,train,Study4,SentenceMatching,0.3727,0.3727,0.3727
+TP157,secures people jumping out of a window - indicates the escape route,negative,train,Study4,SentenceMatching,0.3727,0.3727,0.3727
+TP158,Clouds then hover to the ground - indicates the escape route,negative,train,Study4,SentenceMatching,0.36,0.36,0.36
+TP159,Extinguishing of a fire by deoxygenation - indicates the escape route,negative,test,Study4,SentenceMatching,0.36,0.36,0.36
+TP160,Exit/Communication to the outside - indicates the escape route,positive,train,Study4,SentenceMatching,0.36,0.9,0.36
+TP161,Shows escape routes and absorbes smoke - indicates the escape route,positive,train,Study4,SentenceMatching,0.3727,0.9,0.3727
+TP162,shows person position - indicates the escape route,positive,train,Study4,SentenceMatching,0.9,0.9,0.3444
+TP163,paints the exit path - indicates the escape route,positive,train,Study4,SentenceMatching,0.9,0.9,0.36
+TP164,that changes its structure to a party zone - shows the exit path,negative,test,Study4,SentenceMatching,0.3727,0.3727,0.3727
+TP165,secures people jumping out of a window - shows the exit path,negative,train,Study4,SentenceMatching,0.3727,0.3727,0.3727
+TP166,Clouds then hover to the ground - shows the exit path,negative,train,Study4,SentenceMatching,0.36,0.36,0.36
+TP167,Extinguishing of a fire by deoxygenation - shows the exit path,negative,train,Study4,SentenceMatching,0.36,0.36,0.36
+TP168,Exit/Communication to the outside - shows the exit path,positive,train,Study4,SentenceMatching,0.3444,0.9,0.3444
+TP169,Shows escape routes and absorbes smoke - shows the exit path,positive,test,Study4,SentenceMatching,0.3727,0.9,0.3727
+TP170,shows person position - shows the exit path,negative,train,Study4,SentenceMatching,0.325,0.325,0.325
+TP171,paints the exit path - shows the exit path,positive,train,Study4,SentenceMatching,0.9,0.9,0.325
+TP172,indicates the escape route - shows the exit path,positive,train,Study4,SentenceMatching,0.9,0.9,0.36

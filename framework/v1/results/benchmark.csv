@@ -1,0 +1,11 @@
+ideas,pairs,cache,startup_s,extraction_s,comparison_s,ms_per_pair,link_requests,cache_hits,cache_hit_rate,calls_structure,calls_linguistic,calls_content,calls_terminology,cpu,cores,ram_gb,os,python
+10,45,True,33.34,0.063,0.093,2.07,178,24,0.135,112,134,141,140,Intel(R) Xeon(R) Processor @ 2.30GHz,2,7.8,Linux 6.18.44-fc-v310,3.13.18
+10,45,False,0.01,0.055,0.046,1.01,178,0,0.0,123,158,160,158,Intel(R) Xeon(R) Processor @ 2.30GHz,2,7.8,Linux 6.18.44-fc-v310,3.13.18
+20,190,True,0.01,0.121,0.202,1.06,740,115,0.155,466,540,571,568,Intel(R) Xeon(R) Processor @ 2.30GHz,2,7.8,Linux 6.18.44-fc-v310,3.13.18
+20,190,False,0.01,0.115,0.204,1.07,740,0,0.0,528,651,669,664,Intel(R) Xeon(R) Processor @ 2.30GHz,2,7.8,Linux 6.18.44-fc-v310,3.13.18
+30,435,True,0.01,0.183,0.376,0.87,1526,200,0.131,890,1042,1255,1246,Intel(R) Xeon(R) Processor @ 2.30GHz,2,7.8,Linux 6.18.44-fc-v310,3.13.18
+30,435,False,0.01,0.175,0.408,0.94,1526,0,0.0,1001,1238,1437,1426,Intel(R) Xeon(R) Processor @ 2.30GHz,2,7.8,Linux 6.18.44-fc-v310,3.13.18
+40,780,True,0.01,0.245,0.669,0.86,2814,396,0.141,1546,1897,2313,2299,Intel(R) Xeon(R) Processor @ 2.30GHz,2,7.8,Linux 6.18.44-fc-v310,3.13.18
+40,780,False,0.01,0.232,0.741,0.95,2814,0,0.0,1800,2275,2680,2663,Intel(R) Xeon(R) Processor @ 2.30GHz,2,7.8,Linux 6.18.44-fc-v310,3.13.18
+52,1326,True,0.01,0.319,1.019,0.77,4506,626,0.139,2315,2854,3741,3717,Intel(R) Xeon(R) Processor @ 2.30GHz,2,7.8,Linux 6.18.44-fc-v310,3.13.18
+52,1326,False,0.01,0.305,1.164,0.88,4506,0,0.0,2736,3446,4329,4302,Intel(R) Xeon(R) Processor @ 2.30GHz,2,7.8,Linux 6.18.44-fc-v310,3.13.18

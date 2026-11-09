@@ -1,0 +1,17 @@
+{
+  "_comment": "Optional domain lexicon used by the linguistic matcher before WordNet. Each group lists words treated as synonyms (link = synonym). Edit freely; set linguistic.lexicon_file to \"\" to disable.",
+  "verbs": [
+    ["compose", "make", "consist", "constitute", "comprise", "build", "form", "cover-up", "cover"],
+    ["show", "indicate", "display", "point", "mark", "signal", "highlight", "paint", "print", "project", "light"],
+    ["send", "transmit", "communicate", "inform", "notify", "alert", "report"],
+    ["detect", "sense", "identify", "locate", "track", "monitor"],
+    ["extinguish", "stop", "put out", "suppress", "smother"],
+    ["guide", "lead", "direct", "move", "carry", "transport", "evacuate"]
+  ],
+  "nouns": [
+    ["exit path", "escape route", "exit", "way out", "evacuation route", "escape path", "path of exit"],
+    ["drone", "robot", "uav"],
+    ["position", "location", "place"],
+    ["information", "info", "message", "signal"]
+  ]
+}

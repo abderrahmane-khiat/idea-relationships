@@ -1,0 +1,9 @@
+file,workbook_column,run
+GPT4o_raw_R1.csv,"sheet 04, GPT4o_raw_R1","GPT-4o, raw text, run 1 (ChatGPT app, Oct 2026)"
+GPT4o_raw_R2.csv,"sheet 04, GPT4o_raw_R2","GPT-4o, raw text, run 2 (ChatGPT app, Oct 2026)"
+GPT4o_WHATHOW_R1.csv,"sheet 04, GPT4o_WHATHOW_R1","GPT-4o, WHAT+HOW, run 1 (ChatGPT app, fresh chat, Oct 2026)"
+GPT4o_WHATHOW_R2.csv,"sheet 04, GPT4o_WHATHOW_R2","GPT-4o, WHAT+HOW, run 2 (ChatGPT app, fresh chat, Oct 2026)"
+GPT4o_WHATHOW_def_R1.csv,"sheet 04, GPT4o_WHATHOW_def_R1","GPT-4o, WHAT+HOW with definitions, run 1 (ChatGPT app, 8 Nov 2026)"
+GPT4o_WHATHOW_def_R2.csv,"sheet 04, GPT4o_WHATHOW_def_R2","GPT-4o, WHAT+HOW with definitions, run 2 (ChatGPT app, 8 Nov 2026)"
+Claude_Sonnet55.csv,"sheet 04, Claude_Sonnet55","Claude Sonnet 5.5, raw text, single run (Oct 2026)"
+Gemini25Flash.csv,"sheet 04, Gemini25Flash","Gemini 2.5 Flash, raw text, single run (Oct 2026)"

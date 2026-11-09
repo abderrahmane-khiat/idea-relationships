@@ -1,0 +1,294 @@
+{
+  "IDEA053": {
+    "WHAT": {
+      "type": "triple",
+      "subject": "building",
+      "predicate": "consists of",
+      "object": "variable structure"
+    }
+  },
+  "IDEA054": {
+    "WHAT": {
+      "type": "triple",
+      "subject": "Window",
+      "predicate": "is with",
+      "object": "heat-sensitive material"
+    }
+  },
+  "IDEA055": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "Rescue Indication facade"
+    }
+  },
+  "IDEA056": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "changeable building structure"
+    }
+  },
+  "IDEA057": {
+    "WHAT": {
+      "type": "triple",
+      "subject": "net",
+      "predicate": "attached to",
+      "object": "facade of building"
+    },
+    "HOW": {
+      "type": "sequence_of_words",
+      "text": "that works as a slide and therefore as an escape route"
+    }
+  },
+  "IDEA059": {
+    "WHAT": {
+      "type": "sequence_of_words",
+      "text": "rescue-robots, Have their own power supply"
+    },
+    "HOW": {
+      "type": "sequence_of_words",
+      "text": "that are in the different floors of the building and are activated"
+    }
+  },
+  "IDEA060": {
+    "WHAT": {
+      "type": "triple",
+      "subject": "magnet panels",
+      "predicate": "are in",
+      "object": "shoes"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "shoes",
+      "predicate": "are",
+      "object": "guided along rescure-route automatically"
+    }
+  },
+  "IDEA061": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "emergency radio"
+    },
+    "HOW": {
+      "type": "sequence_of_words",
+      "text": "Instructions about necessary behavior. Calming of the guests"
+    }
+  },
+  "IDEA062": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "rescue clouds"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "Clouds",
+      "predicate": "hover to",
+      "object": "ground"
+    }
+  },
+  "IDEA063": {
+    "WHAT": {
+      "type": "sequence_of_words",
+      "text": "Navigation of the fire department to the seat of fire"
+    }
+  },
+  "IDEA065": {
+    "WHAT": {
+      "type": "triple",
+      "subject": "room",
+      "predicate": "is",
+      "object": "sealed airtight"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "ventilation system",
+      "predicate": "supplies",
+      "object": "oxygen"
+    }
+  },
+  "IDEA066": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "rescue parachutes"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "parachutes",
+      "predicate": "is in",
+      "object": "upper levels of high-rise buildings for escape route"
+    }
+  },
+  "IDEA068": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "emergency TV"
+    }
+  },
+  "IDEA069": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "flying robots/drones"
+    }
+  },
+  "IDEA070": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "Flying Drones"
+    }
+  },
+  "IDEA071": {
+    "WHAT": {
+      "type": "sequence_of_words",
+      "text": "Safety-Zones on different levels of the building"
+    },
+    "HOW": {
+      "type": "sequence_of_words",
+      "text": "Exit/Communication to the outside"
+    }
+  },
+  "IDEA072": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "retractable building"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "building",
+      "predicate": "retracts into",
+      "object": "ground"
+    }
+  },
+  "IDEA073": {
+    "WHAT": {
+      "type": "sequence_of_words",
+      "text": "formation of a rescue cloud"
+    }
+  },
+  "IDEA074": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "Pipe/Airlift"
+    },
+    "HOW": {
+      "type": "sequence_of_words",
+      "text": "safe passage between building an helicopter"
+    }
+  },
+  "IDEA075": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "mobile rescue-drone"
+    }
+  },
+  "IDEA076": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "solid exterior space"
+    }
+  },
+  "IDEA077": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "Evacuation Application"
+    }
+  },
+  "IDEA078": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "intelligent rescue system"
+    }
+  },
+  "IDEA079": {
+    "WHAT": {
+      "type": "triple",
+      "subject": "smart fire extinguisher",
+      "predicate": "is with",
+      "object": "integrated fire detector"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "smoke",
+      "predicate": "Shows",
+      "object": "escape routes"
+    }
+  },
+  "IDEA080": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "Position information"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "evacuation routes",
+      "predicate": "display of",
+      "object": "visible dangers"
+    }
+  },
+  "IDEA081": {
+    "WHAT": {
+      "type": "sequence_of_words",
+      "text": "self-destructing material self-destructs, making the hammer redundant"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "emergency message",
+      "predicate": "display with",
+      "object": "emergency informations"
+    }
+  },
+  "IDEA082": {
+    "WHAT": {
+      "type": "triple",
+      "subject": "Window",
+      "predicate": "composed of",
+      "object": "heat-sensitive material"
+    }
+  },
+  "IDEA083": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "window"
+    }
+  },
+  "IDEA084": {
+    "WHAT": {
+      "type": "triple",
+      "subject": "fa\u00e7ade",
+      "predicate": "composed of",
+      "object": "heat-sensitive material"
+    }
+  },
+  "IDEA085": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "window"
+    }
+  },
+  "IDEA086": {
+    "WHAT": {
+      "type": "triple",
+      "subject": "Window",
+      "predicate": "composed of",
+      "object": "heat-sensitive material"
+    }
+  },
+  "IDEA087": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "Smoke"
+    }
+  },
+  "IDEA058": {
+    "HOW": {
+      "type": "triple",
+      "subject": "people",
+      "predicate": "jumping out of",
+      "object": "window"
+    }
+  },
+  "IDEA067": {
+    "HOW": {
+      "type": "sequence_of_words",
+      "text": "Extinguishing of a fire by deoxygenation"
+    }
+  }
+}

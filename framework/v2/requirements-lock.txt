@@ -1,0 +1,14 @@
+# Exact versions used for the tests, the benchmark and the results in README (Python 3.13.18)
+nltk==3.10.4
+numpy==2.5.3
+gensim==4.4.0
+spacy==3.8.18
+en_core_web_md==3.8.0
+openpyxl==3.1.5
+fastapi==0.162.0
+uvicorn==0.54.0
+pydantic==2.13.5
+pytest==9.1.1
+httpx==0.28.1
+# NLTK data: wordnet, omw-1.4, wordnet_ic, averaged_perceptron_tagger_eng, punkt_tab
+# Word vectors: gensim-data glove-wiki-gigaword-100

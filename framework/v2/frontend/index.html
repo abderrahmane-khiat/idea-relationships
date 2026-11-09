@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>idearel – relationships between ideas</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header>
+  <h1>idearel</h1>
+  <p>Interpretable detection of multidimensional relationships between ideas: WHAT / HOW patterns → elements → cascade of matchers → 54 rules.</p>
+</header>
+
+<main>
+  <section class="ideas">
+    <div class="idea" id="idea1">
+      <h2>Idea 1 <select class="example" data-target="1"><option value="">load an example…</option></select></h2>
+      <details class="free"><summary>Start from free text (Step 1: split into WHAT / HOW / WHEN)</summary>
+        <textarea name="free" rows="2" placeholder="Rescue Indication floor, that lights up to show the exit path in case of fire"></textarea>
+        <button type="button" class="split secondary" data-target="1">Split into patterns</button>
+      </details>
+      <label>WHAT <span>what the idea is</span><textarea name="what" rows="2" placeholder="Window composed of heat-sensitive material"></textarea></label>
+      <label>HOW <span>how it works</span><textarea name="how" rows="2" placeholder="indicates the exit path"></textarea></label>
+      <label>WHEN <span>situation (not used for matching)</span><input name="when" placeholder="in case of fire"></label>
+      <details><summary>Oracle elements (optional)</summary>
+        <p class="hint">Give the elements yourself instead of extracting them (oracle mode). Leave empty to use the extractor.</p>
+        <div class="oracle" data-pattern="what"></div>
+        <div class="oracle" data-pattern="how"></div>
+      </details>
+    </div>
+    <div class="idea" id="idea2">
+      <h2>Idea 2 <select class="example" data-target="2"><option value="">load an example…</option></select></h2>
+      <details class="free"><summary>Start from free text (Step 1: split into WHAT / HOW / WHEN)</summary>
+        <textarea name="free" rows="2" placeholder="Rescue Indication floor, that lights up to show the exit path in case of fire"></textarea>
+        <button type="button" class="split secondary" data-target="2">Split into patterns</button>
+      </details>
+      <label>WHAT <span>what the idea is</span><textarea name="what" rows="2" placeholder="Window made of heat-sensitive material"></textarea></label>
+      <label>HOW <span>how it works</span><textarea name="how" rows="2" placeholder="shows the exit path"></textarea></label>
+      <label>WHEN <span>situation (not used for matching)</span><input name="when" placeholder="in case of fire"></label>
+      <details><summary>Oracle elements (optional)</summary>
+        <p class="hint">Give the elements yourself instead of extracting them (oracle mode). Leave empty to use the extractor.</p>
+        <div class="oracle" data-pattern="what"></div>
+        <div class="oracle" data-pattern="how"></div>
+      </details>
+    </div>
+  </section>
+
+  <details class="settings">
+    <summary>Settings: extractor, cascade, thresholds, rules</summary>
+    <div class="grid">
+      <label>Extractor
+        <select id="extractor">
+          <option value="spacy">spaCy dependency parser (default, offline)</option>
+          <option value="heuristic">Heuristic (NLTK part-of-speech)</option>
+          <option value="corenlp">Stanford OpenIE (local CoreNLP server)</option>
+          <option value="adelie">ADELIE (local open-IE LLM)</option>
+          <option value="ollama">Local LLM via Ollama</option>
+        </select>
+      </label>
+      <label>Cascade order <span>drag to reorder, untick to disable</span>
+        <ul id="order"></ul>
+      </label>
+      <label>Linguistic threshold (Lin) <input type="number" id="linguistic" step="0.05" min="0" max="1" value="0.75"></label>
+      <label>Content threshold (cosine) <input type="number" id="content" step="0.05" min="0" max="1" value="0.80"></label>
+      <label>Terminology threshold (Levenshtein) <input type="number" id="terminology" step="0.05" min="0" max="1" value="0.85"></label>
+      <label><input type="checkbox" id="implicit" checked> Use the WHAT head as subject of a HOW without subject</label>
+      <label>Rule set
+        <select id="rulesv"><option value="v1">v1: the 54 rules of the paper</option><option value="v2">v2: corrected rules with "unknown" (future work)</option></select>
+      </label>
+      <label><input type="checkbox" id="abstain" checked> v2: answer "unknown" when evidence is missing or weak</label>
+      <label>Triple rule SD-VD-OD with the same HOW (v1)
+        <select id="sdvdod"><option value="appendix">alternative-solution (Appendix B, rule 8a)</option><option value="algorithm1">disjoint (Algorithm 1)</option></select>
+      </label>
+    </div>
+  </details>
+
+  <div class="actions"><button id="run">Find the relationship</button><span id="status"></span></div>
+
+  <section id="result" hidden>
+    <div class="verdict"><div class="label" id="rel"></div><div id="direction"></div><div id="rule"></div></div>
+    <h3>Step 2 · Elements</h3><div id="elements" class="cards"></div>
+    <h3>Step 3 · Links found by the cascade</h3><div id="links"></div>
+    <h3>Step 4 · Rule codes</h3><div id="codes"></div>
+    <details><summary>Raw JSON</summary><pre id="json"></pre></details>
+  </section>
+
+  <details class="rules"><summary>The rules (v1: 54 rules of the paper · v2: corrected table)</summary><div id="rules"></div><div id="rules2"></div></details>
+</main>
+<footer>Runs entirely on your computer: no external API, no API key.</footer>
+<script src="/static/app.js"></script>
+</body>
+</html>

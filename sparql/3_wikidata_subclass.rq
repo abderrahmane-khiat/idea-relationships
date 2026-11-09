@@ -1,0 +1,16 @@
+# Appendix A, query 3: is concept A a sub- or superclass of concept B in Wikidata (local Wikidata Query RDF,
+# dump 20230607)? Example from the paper: "emergency TV" vs "facade"; replace both labels for other terms.
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?item2 ?item02 WHERE {
+  { ?item rdfs:label ?item2 .
+    ?item wdt:P279* ?item1 .
+    ?item1 rdfs:label "facade"@en .
+    FILTER (?item2 = "emergency TV"@en) .
+  } UNION {
+    ?item rdfs:label ?item2 .
+    ?item wdt:P279* ?item1 .
+    ?item1 rdfs:label "emergency TV"@en .
+    FILTER (?item2 = "facade"@en) .
+  }
+}

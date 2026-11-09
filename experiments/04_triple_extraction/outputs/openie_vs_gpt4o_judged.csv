@@ -1,0 +1,71 @@
+Item,Idea_ID,Pattern,Text,OpenIE_Type,OpenIE_S,OpenIE_P,OpenIE_O,Expert_Flag,OpenIE_Judgement,Triple_Expected,GPT4o_S,GPT4o_P,GPT4o_O,GPT4o_Status,Judgement_Lenient,Judgement_Strict
+WHAT01,IDEA053,WHAT,The building consists of a variable structure,triple,building,consists of,variable structure,y,Correct,Y,building,consists of,variable structure,triple,Correct,Correct
+WHAT02,IDEA054,WHAT,Window with a heat-sensitive material,triple,Window,is with,heat-sensitive material,y,Correct,Y,NONE,NONE,NONE,none,,
+WHAT03,IDEA055,WHAT,Rescue Indication facade,SW,,,,y,,N,NONE,NONE,NONE,none,,
+WHAT04,IDEA056,WHAT,changeable building structure,SW,,,,y,,N,NONE,NONE,NONE,none,,
+WHAT05,IDEA057,WHAT,net attached to the facade of a building,triple,net,attached to,facade of building,y,Correct,Y,net,attached to,facade of a building,triple,Correct,Correct
+WHAT06,IDEA058,WHAT,landscape architecture that changes into an air bed,SW,,,,n T,,Y,landscape architecture,changes into,air bed,triple,Correct,Correct
+WHAT07,IDEA059,WHAT,"rescue-robots, Have their own power supply",SW,,,,y/n,,N,rescue-robots,have,power supply,triple,Correct,Correct
+WHAT08,IDEA060,WHAT,magnet panels are in the shoes and in the floor,triple,magnet panels,are in,shoes,y,Correct,Y,magnet panels,are in,shoes,triple,Correct,Correct
+WHAT09,IDEA061,WHAT,emergency radio,SW,,,,n W,,N,NONE,NONE,NONE,none,,
+WHAT10,IDEA062,WHAT,rescue clouds,SW,,,,n W,,N,NONE,NONE,NONE,none,,
+WHAT11,IDEA063,WHAT,Navigation of the fire department to the seat of fire,SW,,,,y,,N,NONE,NONE,NONE,none,,
+WHAT12,IDEA064,WHAT,tunnel system is unfolded,triple,tunnel system,is,unfolded,y,Not Correct,Y,tunnel system,is unfolded,NONE,partial,,
+WHAT13,IDEA065,WHAT,The room is sealed airtight,triple,room,is,sealed airtight,y,Correct,Y,NONE,NONE,NONE,none,,
+WHAT14,IDEA066,WHAT,rescue parachutes,SW,,,,n W,,N,NONE,NONE,NONE,none,,
+WHAT15,IDEA067,WHAT,Capsule puts itself over the fire,triple,Capsule,puts,itself,y/f,Not Correct,Y,Capsule,puts over,itself over the fire,triple,Not Correct,Not Correct
+WHAT16,IDEA068,WHAT,emergency TV,SW,,,,n W,,N,NONE,NONE,NONE,none,,
+WHAT17,IDEA069,WHAT,flying robots/drones,SW,,,,n W,,N,NONE,NONE,NONE,none,,
+WHAT18,IDEA070,WHAT,Flying Drones,SW,,,,n W,,N,NONE,NONE,NONE,none,,
+WHAT19,IDEA071,WHAT,Safety-Zones on different levels of the building,SW,,,,y,,N,NONE,NONE,NONE,none,,
+WHAT20,IDEA072,WHAT,retractable building,W,,,,y,,N,NONE,NONE,NONE,none,,
+WHAT21,IDEA073,WHAT,formation of a rescue cloud,SW,,,,y,,N,NONE,NONE,NONE,none,,
+WHAT22,IDEA074,WHAT,Pipe/Airlift,W,,,,y,,N,NONE,NONE,NONE,none,,
+WHAT23,IDEA075,WHAT,mobile rescue-drone,W,,,,y,,N,NONE,NONE,NONE,none,,
+WHAT24,IDEA076,WHAT,solid exterior space,SW,,,,y,,N,NONE,NONE,NONE,none,,
+WHAT25,IDEA077,WHAT,Evacuation Application,SW,,,,n W,,N,NONE,NONE,NONE,none,,
+WHAT26,IDEA078,WHAT,intelligent rescue system,SW,,,,n W,,N,NONE,NONE,NONE,none,,
+WHAT27,IDEA079,WHAT,smart fire extinguisher with integrated fire detector,triple,smart fire extinguisher,is with,integrated fire detector,y,Correct,Y,NONE,NONE,NONE,none,,
+WHAT28,IDEA080,WHAT,Position information,SW,,,,n W,,N,NONE,NONE,NONE,none,,
+WHAT29,IDEA081,WHAT,"self-destructing material self-destructs, making the hammer redundant",SW,,,,y,,N,material,self-destructs,NONE,partial,,
+WHAT30,IDEA082,WHAT,Window composed of heat-sensitive material,triple,Window,composed of,heat-sensitive material,y,Correct,Y,Window,composed of,heat-sensitive material,triple,Correct,Correct
+WHAT31,IDEA083,WHAT,window,W,,,,y,,N,NONE,NONE,NONE,none,,
+WHAT32,IDEA084,WHAT,facade composed of heat-sensitive material,triple,façade,composed of,heat-sensitive material,y,Correct,Y,facade,composed of,heat-sensitive material,triple,Correct,Correct
+WHAT33,IDEA085,WHAT,window,W,,,,y,,N,NONE,NONE,NONE,none,,
+WHAT34,IDEA086,WHAT,Window composed of heat-sensitive material,triple,Window,composed of,heat-sensitive material,y,Correct,Y,Window,composed of,heat-sensitive material,triple,Correct,Correct
+WHAT35,IDEA087,WHAT,Smoke,W,,,,y,,N,NONE,NONE,NONE,none,,
+HOW01,IDEA053,HOW,"the structure opens, encloses the person and descents to the ground",triple,structure,opens,person,y,Not Correct,Y,structure,encloses,person,triple,Correct,Correct
+HOW02,IDEA054,HOW,that lights-up,W,,,,n t,,Y,NONE,NONE,NONE,none,,
+HOW03,IDEA055,HOW,The facade indicates in which floor,SW,,,,n t,,Y,facade,indicates,floor,triple,Correct,Correct
+HOW04,IDEA056,HOW,that changes its structure to a party zone,SW,,,,n t,,Y,NONE,NONE,NONE,none,,
+HOW05,IDEA057,HOW,that works as a slide and therefore as an escape route,SW,,,,y/n t,,?,that,works as,slide,triple,Correct,Not Correct
+HOW06,IDEA058,HOW,secures people jumping out of a window,triple,people,jumping out of,window,y,Correct,Y,NONE,NONE,NONE,none,,
+HOW07,IDEA059,HOW,that are in the different floors of the building and are activated,SW,,,,y,,N,that,are in,different floors,triple,Correct,Not Correct
+HOW08,IDEA060,HOW,The shoes (and therefore the persons) are guided along the rescure-route automatically,triple,shoes,are,guided along rescure-route automatically,y/ n sw,Correct,Y,shoes,are guided along,rescue-route,triple,Correct,Correct
+HOW09,IDEA061,HOW,Instructions about necessary behavior. Calming of the guests,SW,,,,y,,N,NONE,NONE,NONE,none,,
+HOW10,IDEA062,HOW,Clouds then hover to the ground,triple,Clouds,hover to,ground,y,Correct,Y,Clouds,hover to,ground,triple,Correct,Correct
+HOW11,IDEA063,HOW,protective system that identifies the seat of fire and detects smoke development,SW,,,,n t,,Y,protective system,identifies,seat of fire,triple,Correct,Correct
+HOW12,IDEA064,HOW,Leads people through the hotel. Save navigation to the exit,SW,,,,n t,,Y,NONE,NONE,NONE,none,,
+HOW13,IDEA065,HOW,that can be used as an escape route and supplies people with oxygen no smoke can get in . A ventilation system supplies oxygen,triple,ventilation system,supplies,oxygen,y,Correct,Y,that,supplies,people with oxygen,triple,Correct,Not Correct
+HOW14,IDEA066,HOW,parachutes in the upper levels of high-rise buildings for escape route,triple,parachutes,is in,upper levels of high-rise buildings for escape route,y,Correct,Y,NONE,NONE,NONE,none,,
+HOW15,IDEA067,HOW,Extinguishing of a fire by deoxygenation,SW,,,,y,,N,NONE,NONE,NONE,none,,
+HOW16,IDEA068,HOW,"informations for hotel guests via a TV/Computer in the room, Individual using the language of the guests",triple,informations,is in,room,n sw,Not Correct,Y,NONE,NONE,NONE,none,,
+HOW17,IDEA069,HOW,that generate light and send information to the rescue teams,SW,,,,n t,,Y,that,generate,light,triple,Correct,Not Correct
+HOW18,IDEA070,HOW,that place rescue robots on higher levels of high-rise buildings,SW,,,,n t,,Y,that,place,rescue robots,triple,Correct,Not Correct
+HOW19,IDEA071,HOW,Exit/Communication to the outside,SW,,,,sw,,N,NONE,NONE,NONE,none,,
+HOW20,IDEA072,HOW,the building completely retracts into the ground,triple,building,retracts into,ground,y,Correct,Y,building,retracts into,ground,triple,Correct,Correct
+HOW21,IDEA073,HOW,rescue from great heights by changing the information and formation of specific particles in the atmosphere,SW,,,,n t,,Y,NONE,NONE,NONE,none,,
+HOW22,IDEA074,HOW,safe passage between building an helicopter,SW,,,,y,,N,NONE,NONE,NONE,none,,
+HOW23,IDEA075,HOW,that docks to buildings and serves as an escape route,SW,,,,n t,,Y,that,docks to,buildings,triple,Correct,Not Correct
+HOW24,IDEA076,HOW,that normally functions as a balcony and is refunctionalized into a panic-room and is grounded using ropes or helicopters,SW,,,,n t,,Y,that,functions as,balcony,triple,Correct,Not Correct
+HOW25,IDEA077,HOW,that analyses dangerous situations and forwards informations to smartphones via an App. Individualized emergency escape routes by exact determination in the object and knowledge about the danger source,SW,,,,n t,,Y,that,analyses,dangerous situations,triple,Correct,Not Correct
+HOW26,IDEA078,HOW,"that identifies accidents in buildings and assumes emergency navigation. Transferable to traffic systems, major events etc",triple,accidents,assumes,emergency navigation,y,Not Correct,Y,that,identifies,accidents,triple,Correct,Not Correct
+HOW27,IDEA079,HOW,Shows escape routes and absorbes smoke,triple,smoke,Shows,escape routes,y,Correct,Y,NONE,NONE,NONE,none,,
+HOW28,IDEA080,HOW,"display of evacuation routes, display of visible and invisible dangers (e.g. radiation). sending and receiving. thermal image",triple,evacuation routes,display of,visible dangers,y,Correct,Y,NONE,NONE,NONE,none,,
+HOW29,IDEA081,HOW,"Emergency Hammer with integrated emergency message, gps-localization, display with emergency informations like first-aid-instructions",triple,emergency message,display with,emergency informations,y,Correct,Y,NONE,NONE,NONE,none,,
+HOW30,IDEA082,HOW,indicates the exit path,SW,,,,n t,,Y,NONE,NONE,NONE,none,,
+HOW31,IDEA083,HOW,shows the exit path,SW,,,,n t,,Y,NONE,NONE,NONE,none,,
+HOW32,IDEA084,HOW,shows person position,SW,,,,n t,,Y,NONE,NONE,NONE,none,,
+HOW33,IDEA085,HOW,paints the exit path,SW,,,,n t,,Y,NONE,NONE,NONE,none,,
+HOW34,IDEA086,HOW,indicates the escape route,SW,,,,n t,,Y,NONE,NONE,NONE,none,,
+HOW35,IDEA087,HOW,shows the exit path,SW,,,,n t,,Y,NONE,NONE,NONE,none,,

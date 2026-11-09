@@ -1,0 +1,12 @@
+# Appendix A, query 4: do two predicates share a common synonym (a Wikidata property whose label or alias
+# contains both)? Example from the paper: "composed of" vs "display"; replace both strings for other predicates.
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT DISTINCT ?property WHERE {
+  ?property a wikibase:Property .
+  ?property skos:altLabel|rdfs:label ?idLabel .
+  ?property skos:altLabel|rdfs:label ?idLabel2 .
+  FILTER (CONTAINS(LCASE(?idLabel), "composed of"@en)) .
+  FILTER (CONTAINS(LCASE(?idLabel2), "display"@en)) .
+}

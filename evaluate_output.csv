@@ -1,0 +1,682 @@
+Block,Method,Metric,Value
+binary,Our approach,TP,19.0
+binary,Our approach,FP,8.0
+binary,Our approach,FN,9.0
+binary,Our approach,TN,204.0
+binary,Our approach,Precision,0.7037037037037037
+binary,Our approach,Recall,0.6785714285714286
+binary,Our approach,F1,0.6909090909090909
+binary,Our approach,Accuracy,0.9291666666666667
+binary,Our approach,Predicted_related,27.0
+binary,Dandelion (0.75),TP,7.0
+binary,Dandelion (0.75),FP,15.0
+binary,Dandelion (0.75),FN,21.0
+binary,Dandelion (0.75),TN,197.0
+binary,Dandelion (0.75),Precision,0.3181818181818182
+binary,Dandelion (0.75),Recall,0.25
+binary,Dandelion (0.75),F1,0.28
+binary,Dandelion (0.75),Accuracy,0.85
+binary,Dandelion (0.75),Predicted_related,22.0
+binary,SBERT raw text (0.75),TP,5.0
+binary,SBERT raw text (0.75),FP,1.0
+binary,SBERT raw text (0.75),FN,23.0
+binary,SBERT raw text (0.75),TN,211.0
+binary,SBERT raw text (0.75),Precision,0.8333333333333334
+binary,SBERT raw text (0.75),Recall,0.17857142857142858
+binary,SBERT raw text (0.75),F1,0.29411764705882354
+binary,SBERT raw text (0.75),Accuracy,0.9
+binary,SBERT raw text (0.75),Predicted_related,6.0
+binary,SBERT WHAT+HOW concat (0.75),TP,5.0
+binary,SBERT WHAT+HOW concat (0.75),FP,1.0
+binary,SBERT WHAT+HOW concat (0.75),FN,23.0
+binary,SBERT WHAT+HOW concat (0.75),TN,211.0
+binary,SBERT WHAT+HOW concat (0.75),Precision,0.8333333333333334
+binary,SBERT WHAT+HOW concat (0.75),Recall,0.17857142857142858
+binary,SBERT WHAT+HOW concat (0.75),F1,0.29411764705882354
+binary,SBERT WHAT+HOW concat (0.75),Accuracy,0.9
+binary,SBERT WHAT+HOW concat (0.75),Predicted_related,6.0
+binary,SBERT WHAT+HOW mean (0.75),TP,4.0
+binary,SBERT WHAT+HOW mean (0.75),FP,0.0
+binary,SBERT WHAT+HOW mean (0.75),FN,24.0
+binary,SBERT WHAT+HOW mean (0.75),TN,212.0
+binary,SBERT WHAT+HOW mean (0.75),Precision,1.0
+binary,SBERT WHAT+HOW mean (0.75),Recall,0.14285714285714285
+binary,SBERT WHAT+HOW mean (0.75),F1,0.25
+binary,SBERT WHAT+HOW mean (0.75),Accuracy,0.9
+binary,SBERT WHAT+HOW mean (0.75),Predicted_related,4.0
+binary,"SBERT raw text, tuned on test (0.60)",TP,12.0
+binary,"SBERT raw text, tuned on test (0.60)",FP,14.0
+binary,"SBERT raw text, tuned on test (0.60)",FN,16.0
+binary,"SBERT raw text, tuned on test (0.60)",TN,198.0
+binary,"SBERT raw text, tuned on test (0.60)",Precision,0.46153846153846156
+binary,"SBERT raw text, tuned on test (0.60)",Recall,0.42857142857142855
+binary,"SBERT raw text, tuned on test (0.60)",F1,0.4444444444444445
+binary,"SBERT raw text, tuned on test (0.60)",Accuracy,0.875
+binary,"SBERT raw text, tuned on test (0.60)",Predicted_related,26.0
+binary,"SBERT WHAT+HOW concat, tuned on test (0.60)",TP,9.0
+binary,"SBERT WHAT+HOW concat, tuned on test (0.60)",FP,3.0
+binary,"SBERT WHAT+HOW concat, tuned on test (0.60)",FN,19.0
+binary,"SBERT WHAT+HOW concat, tuned on test (0.60)",TN,209.0
+binary,"SBERT WHAT+HOW concat, tuned on test (0.60)",Precision,0.75
+binary,"SBERT WHAT+HOW concat, tuned on test (0.60)",Recall,0.32142857142857145
+binary,"SBERT WHAT+HOW concat, tuned on test (0.60)",F1,0.45000000000000007
+binary,"SBERT WHAT+HOW concat, tuned on test (0.60)",Accuracy,0.9083333333333333
+binary,"SBERT WHAT+HOW concat, tuned on test (0.60)",Predicted_related,12.0
+binary,"Dandelion, tuned on test (0.60)",TP,15.0
+binary,"Dandelion, tuned on test (0.60)",FP,26.0
+binary,"Dandelion, tuned on test (0.60)",FN,13.0
+binary,"Dandelion, tuned on test (0.60)",TN,186.0
+binary,"Dandelion, tuned on test (0.60)",Precision,0.36585365853658536
+binary,"Dandelion, tuned on test (0.60)",Recall,0.5357142857142857
+binary,"Dandelion, tuned on test (0.60)",F1,0.43478260869565216
+binary,"Dandelion, tuned on test (0.60)",Accuracy,0.8375
+binary,"Dandelion, tuned on test (0.60)",Predicted_related,41.0
+binary,"TF-IDF raw text, tuned on test (0.20)",TP,14.0
+binary,"TF-IDF raw text, tuned on test (0.20)",FP,11.0
+binary,"TF-IDF raw text, tuned on test (0.20)",FN,14.0
+binary,"TF-IDF raw text, tuned on test (0.20)",TN,201.0
+binary,"TF-IDF raw text, tuned on test (0.20)",Precision,0.56
+binary,"TF-IDF raw text, tuned on test (0.20)",Recall,0.5
+binary,"TF-IDF raw text, tuned on test (0.20)",F1,0.5283018867924528
+binary,"TF-IDF raw text, tuned on test (0.20)",Accuracy,0.8958333333333334
+binary,"TF-IDF raw text, tuned on test (0.20)",Predicted_related,25.0
+binary,"TF-IDF raw text, 5-fold CV threshold",TP,11.0
+binary,"TF-IDF raw text, 5-fold CV threshold",FP,13.0
+binary,"TF-IDF raw text, 5-fold CV threshold",FN,17.0
+binary,"TF-IDF raw text, 5-fold CV threshold",TN,199.0
+binary,"TF-IDF raw text, 5-fold CV threshold",Precision,0.4583333333333333
+binary,"TF-IDF raw text, 5-fold CV threshold",Recall,0.39285714285714285
+binary,"TF-IDF raw text, 5-fold CV threshold",F1,0.4230769230769231
+binary,"TF-IDF raw text, 5-fold CV threshold",Accuracy,0.875
+binary,"TF-IDF raw text, 5-fold CV threshold",Predicted_related,24.0
+binary,GPT-4o raw text R1,TP,24.0
+binary,GPT-4o raw text R1,FP,117.0
+binary,GPT-4o raw text R1,FN,4.0
+binary,GPT-4o raw text R1,TN,95.0
+binary,GPT-4o raw text R1,Precision,0.1702127659574468
+binary,GPT-4o raw text R1,Recall,0.8571428571428571
+binary,GPT-4o raw text R1,F1,0.28402366863905326
+binary,GPT-4o raw text R1,Accuracy,0.49583333333333335
+binary,GPT-4o raw text R1,Predicted_related,141.0
+binary,GPT-4o raw text R2,TP,24.0
+binary,GPT-4o raw text R2,FP,109.0
+binary,GPT-4o raw text R2,FN,4.0
+binary,GPT-4o raw text R2,TN,103.0
+binary,GPT-4o raw text R2,Precision,0.18045112781954886
+binary,GPT-4o raw text R2,Recall,0.8571428571428571
+binary,GPT-4o raw text R2,F1,0.29813664596273287
+binary,GPT-4o raw text R2,Accuracy,0.5291666666666667
+binary,GPT-4o raw text R2,Predicted_related,133.0
+binary,GPT-4o WHAT+HOW R1,TP,25.0
+binary,GPT-4o WHAT+HOW R1,FP,146.0
+binary,GPT-4o WHAT+HOW R1,FN,3.0
+binary,GPT-4o WHAT+HOW R1,TN,66.0
+binary,GPT-4o WHAT+HOW R1,Precision,0.14619883040935672
+binary,GPT-4o WHAT+HOW R1,Recall,0.8928571428571429
+binary,GPT-4o WHAT+HOW R1,F1,0.25125628140703515
+binary,GPT-4o WHAT+HOW R1,Accuracy,0.37916666666666665
+binary,GPT-4o WHAT+HOW R1,Predicted_related,171.0
+binary,GPT-4o WHAT+HOW R2,TP,22.0
+binary,GPT-4o WHAT+HOW R2,FP,139.0
+binary,GPT-4o WHAT+HOW R2,FN,6.0
+binary,GPT-4o WHAT+HOW R2,TN,73.0
+binary,GPT-4o WHAT+HOW R2,Precision,0.13664596273291926
+binary,GPT-4o WHAT+HOW R2,Recall,0.7857142857142857
+binary,GPT-4o WHAT+HOW R2,F1,0.23280423280423282
+binary,GPT-4o WHAT+HOW R2,Accuracy,0.3958333333333333
+binary,GPT-4o WHAT+HOW R2,Predicted_related,161.0
+binary,Claude Sonnet 5.5 raw text,TP,20.0
+binary,Claude Sonnet 5.5 raw text,FP,63.0
+binary,Claude Sonnet 5.5 raw text,FN,8.0
+binary,Claude Sonnet 5.5 raw text,TN,149.0
+binary,Claude Sonnet 5.5 raw text,Precision,0.24096385542168675
+binary,Claude Sonnet 5.5 raw text,Recall,0.7142857142857143
+binary,Claude Sonnet 5.5 raw text,F1,0.36036036036036034
+binary,Claude Sonnet 5.5 raw text,Accuracy,0.7041666666666667
+binary,Claude Sonnet 5.5 raw text,Predicted_related,83.0
+binary,Gemini 2.5 Flash raw text,TP,23.0
+binary,Gemini 2.5 Flash raw text,FP,123.0
+binary,Gemini 2.5 Flash raw text,FN,5.0
+binary,Gemini 2.5 Flash raw text,TN,89.0
+binary,Gemini 2.5 Flash raw text,Precision,0.15753424657534246
+binary,Gemini 2.5 Flash raw text,Recall,0.8214285714285714
+binary,Gemini 2.5 Flash raw text,F1,0.26436781609195403
+binary,Gemini 2.5 Flash raw text,Accuracy,0.4666666666666667
+binary,Gemini 2.5 Flash raw text,Predicted_related,146.0
+binary,GPT-4o WHAT+HOW with definitions R1,TP,17.0
+binary,GPT-4o WHAT+HOW with definitions R1,FP,47.0
+binary,GPT-4o WHAT+HOW with definitions R1,FN,11.0
+binary,GPT-4o WHAT+HOW with definitions R1,TN,165.0
+binary,GPT-4o WHAT+HOW with definitions R1,Precision,0.265625
+binary,GPT-4o WHAT+HOW with definitions R1,Recall,0.6071428571428571
+binary,GPT-4o WHAT+HOW with definitions R1,F1,0.3695652173913044
+binary,GPT-4o WHAT+HOW with definitions R1,Accuracy,0.7583333333333333
+binary,GPT-4o WHAT+HOW with definitions R1,Predicted_related,64.0
+binary,GPT-4o WHAT+HOW with definitions R2,TP,14.0
+binary,GPT-4o WHAT+HOW with definitions R2,FP,39.0
+binary,GPT-4o WHAT+HOW with definitions R2,FN,14.0
+binary,GPT-4o WHAT+HOW with definitions R2,TN,173.0
+binary,GPT-4o WHAT+HOW with definitions R2,Precision,0.2641509433962264
+binary,GPT-4o WHAT+HOW with definitions R2,Recall,0.5
+binary,GPT-4o WHAT+HOW with definitions R2,F1,0.34567901234567905
+binary,GPT-4o WHAT+HOW with definitions R2,Accuracy,0.7791666666666667
+binary,GPT-4o WHAT+HOW with definitions R2,Predicted_related,53.0
+macro,Our approach,macro_P,0.7962548015364916
+macro,Our approach,macro_R,0.7723842195540309
+macro,Our approach,macro_F1,0.7829292929292929
+macro,GPT-4o raw text R1,macro_P,0.3247944295563343
+macro,GPT-4o raw text R1,macro_R,0.5529373927958834
+macro,GPT-4o raw text R1,macro_F1,0.29341992227922364
+macro,GPT-4o raw text R2,macro_P,0.3350926650742151
+macro,GPT-4o raw text R2,macro_R,0.6237349914236707
+macro,GPT-4o raw text R2,macro_F1,0.3181759488946242
+macro,GPT-4o WHAT+HOW R1,macro_P,0.32331502259622874
+macro,GPT-4o WHAT+HOW R1,macro_R,0.500557461406518
+macro,GPT-4o WHAT+HOW R1,macro_F1,0.24701993266251643
+macro,GPT-4o WHAT+HOW R2,macro_P,0.3433977156991125
+macro,GPT-4o WHAT+HOW R2,macro_R,0.5429030874785592
+macro,GPT-4o WHAT+HOW R2,macro_F1,0.2959652675503191
+macro,Claude Sonnet 5.5,macro_P,0.3321272179253867
+macro,Claude Sonnet 5.5,macro_R,0.6438893653516296
+macro,Claude Sonnet 5.5,macro_F1,0.35181255951073026
+macro,Gemini 2.5 Flash,macro_P,0.3904719689294157
+macro,Gemini 2.5 Flash,macro_R,0.46177101200686105
+macro,Gemini 2.5 Flash,macro_F1,0.3186860749388814
+macro,GPT-4o WHAT+HOW def. R1,macro_P,0.3958901515151515
+macro,GPT-4o WHAT+HOW def. R1,macro_R,0.5786663807890223
+macro,GPT-4o WHAT+HOW def. R1,macro_F1,0.40126522961574507
+macro,GPT-4o WHAT+HOW def. R2,macro_P,0.2794977081741788
+macro,GPT-4o WHAT+HOW def. R2,macro_R,0.3153730703259005
+macro,GPT-4o WHAT+HOW def. R2,macro_F1,0.25625558148244176
+kappa,GPT4o_raw_R1 vs GPT4o_raw_R2,kappa,0.7867670116023833
+kappa,GPT4o_raw_R1 vs GPT4o_raw_R2,share_changed,0.14166666666666672
+kappa,GPT4o_WHATHOW_R1 vs GPT4o_WHATHOW_R2,kappa,0.4918428839002145
+kappa,GPT4o_WHATHOW_R1 vs GPT4o_WHATHOW_R2,share_changed,0.32499999999999996
+kappa,GPT4o_WHATHOW_def_R1 vs GPT4o_WHATHOW_def_R2,kappa,0.575315195753152
+kappa,GPT4o_WHATHOW_def_R1 vs GPT4o_WHATHOW_def_R2,share_changed,0.16666666666666663
+agreement,annotators,fleiss_kappa,0.5934853420195442
+agreement,annotators,krippendorff_alpha,0.5940499457111834
+significance,Our approach vs Dandelion (0.75),Delta_F1,0.4109090909090909
+significance,Our approach vs Dandelion (0.75),CI95_low,0.2480083096749497
+significance,Our approach vs Dandelion (0.75),CI95_high,0.5780730897009967
+significance,Our approach vs Dandelion (0.75),Exact_McNemar_p_related,0.00048828125
+significance,Our approach vs Dandelion (0.75),McNemar_accuracy_p,0.0005320055051392103
+significance,Our approach vs SBERT raw text (0.75),Delta_F1,0.3967914438502674
+significance,Our approach vs SBERT raw text (0.75),CI95_low,0.18158567774936063
+significance,Our approach vs SBERT raw text (0.75),CI95_high,0.6092481673520471
+significance,Our approach vs SBERT raw text (0.75),Exact_McNemar_p_related,0.0001220703125
+significance,Our approach vs SBERT raw text (0.75),McNemar_accuracy_p,0.2109029260566102
+significance,Our approach vs SBERT WHAT+HOW concat (0.75),Delta_F1,0.3967914438502674
+significance,Our approach vs SBERT WHAT+HOW concat (0.75),CI95_low,0.18271475422343714
+significance,Our approach vs SBERT WHAT+HOW concat (0.75),CI95_high,0.6090280849181777
+significance,Our approach vs SBERT WHAT+HOW concat (0.75),Exact_McNemar_p_related,0.0001220703125
+significance,Our approach vs SBERT WHAT+HOW concat (0.75),McNemar_accuracy_p,0.2109029260566102
+significance,Our approach vs SBERT WHAT+HOW mean (0.75),Delta_F1,0.4409090909090909
+significance,Our approach vs SBERT WHAT+HOW mean (0.75),CI95_low,0.22142857142857147
+significance,Our approach vs SBERT WHAT+HOW mean (0.75),CI95_high,0.6545238823922199
+significance,Our approach vs SBERT WHAT+HOW mean (0.75),Exact_McNemar_p_related,6.103515625e-05
+significance,Our approach vs SBERT WHAT+HOW mean (0.75),McNemar_accuracy_p,0.2109029260566102
+significance,"Our approach vs SBERT raw text, tuned on test (0.60)",Delta_F1,0.2464646464646465
+significance,"Our approach vs SBERT raw text, tuned on test (0.60)",CI95_low,0.019932950191570892
+significance,"Our approach vs SBERT raw text, tuned on test (0.60)",CI95_high,0.4674336878538013
+significance,"Our approach vs SBERT raw text, tuned on test (0.60)",Exact_McNemar_p_related,0.143463134765625
+significance,"Our approach vs SBERT raw text, tuned on test (0.60)",McNemar_accuracy_p,0.0485197382802508
+significance,"Our approach vs SBERT WHAT+HOW concat, tuned on test (0.60)",Delta_F1,0.2409090909090909
+significance,"Our approach vs SBERT WHAT+HOW concat, tuned on test (0.60)",CI95_low,-0.02051878354203928
+significance,"Our approach vs SBERT WHAT+HOW concat, tuned on test (0.60)",CI95_high,0.4967091724700419
+significance,"Our approach vs SBERT WHAT+HOW concat, tuned on test (0.60)",Exact_McNemar_p_related,0.0308837890625
+significance,"Our approach vs SBERT WHAT+HOW concat, tuned on test (0.60)",McNemar_accuracy_p,0.4576140668763148
+significance,"Our approach vs Dandelion, tuned on test (0.60)",Delta_F1,0.25612648221343876
+significance,"Our approach vs Dandelion, tuned on test (0.60)",CI95_low,0.1073336571151044
+significance,"Our approach vs Dandelion, tuned on test (0.60)",CI95_high,0.4095253657018363
+significance,"Our approach vs Dandelion, tuned on test (0.60)",Exact_McNemar_p_related,0.2890625
+significance,"Our approach vs Dandelion, tuned on test (0.60)",McNemar_accuracy_p,0.00020537573614121118
+significance,"Our approach vs TF-IDF raw text, tuned on test (0.20)",Delta_F1,0.1626072041166381
+significance,"Our approach vs TF-IDF raw text, tuned on test (0.20)",CI95_low,-0.053883246321784505
+significance,"Our approach vs TF-IDF raw text, tuned on test (0.20)",CI95_high,0.37564634193124535
+significance,"Our approach vs TF-IDF raw text, tuned on test (0.20)",Exact_McNemar_p_related,0.30175781249999994
+significance,"Our approach vs TF-IDF raw text, tuned on test (0.20)",McNemar_accuracy_p,0.21592493894014053
+significance,"Our approach vs TF-IDF raw text, 5-fold CV threshold",Delta_F1,0.26783216783216784
+significance,"Our approach vs TF-IDF raw text, 5-fold CV threshold",CI95_low,0.0740712788259958
+significance,"Our approach vs TF-IDF raw text, 5-fold CV threshold",CI95_high,0.4615402405180388
+significance,"Our approach vs TF-IDF raw text, 5-fold CV threshold",Exact_McNemar_p_related,0.03857421875
+significance,"Our approach vs TF-IDF raw text, 5-fold CV threshold",McNemar_accuracy_p,0.031141210595796665
+significance,Our approach vs GPT-4o raw text R1,Delta_F1,0.40688542227003766
+significance,Our approach vs GPT-4o raw text R1,CI95_low,0.23946084770114945
+significance,Our approach vs GPT-4o raw text R1,CI95_high,0.5543676705131814
+significance,Our approach vs GPT-4o raw text R1,Exact_McNemar_p_related,0.266845703125
+significance,Our approach vs GPT-4o raw text R1,McNemar_accuracy_p,0.0
+significance,Our approach vs GPT-4o raw text R2,Delta_F1,0.392772444946358
+significance,Our approach vs GPT-4o raw text R2,CI95_low,0.22466957528683706
+significance,Our approach vs GPT-4o raw text R2,CI95_high,0.5427794598039997
+significance,Our approach vs GPT-4o raw text R2,Exact_McNemar_p_related,0.266845703125
+significance,Our approach vs GPT-4o raw text R2,McNemar_accuracy_p,0.0
+significance,Our approach vs GPT-4o WHAT+HOW R1,Delta_F1,0.43965280950205576
+significance,Our approach vs GPT-4o WHAT+HOW R1,CI95_low,0.2800125387559981
+significance,Our approach vs GPT-4o WHAT+HOW R1,CI95_high,0.5802151719248493
+significance,Our approach vs GPT-4o WHAT+HOW R1,Exact_McNemar_p_related,0.14599609375
+significance,Our approach vs GPT-4o WHAT+HOW R1,McNemar_accuracy_p,0.0
+significance,Our approach vs GPT-4o WHAT+HOW R2,Delta_F1,0.4581048581048581
+significance,Our approach vs GPT-4o WHAT+HOW R2,CI95_low,0.29104287674925866
+significance,Our approach vs GPT-4o WHAT+HOW R2,CI95_high,0.6061002261729433
+significance,Our approach vs GPT-4o WHAT+HOW R2,Exact_McNemar_p_related,0.6072387695312499
+significance,Our approach vs GPT-4o WHAT+HOW R2,McNemar_accuracy_p,0.0
+significance,Our approach vs Claude Sonnet 5.5 raw text,Delta_F1,0.3305487305487306
+significance,Our approach vs Claude Sonnet 5.5 raw text,CI95_low,0.13960939959376734
+significance,Our approach vs Claude Sonnet 5.5 raw text,CI95_high,0.5085107428857428
+significance,Our approach vs Claude Sonnet 5.5 raw text,Exact_McNemar_p_related,1.0
+significance,Our approach vs Claude Sonnet 5.5 raw text,McNemar_accuracy_p,3.111967683544492e-09
+significance,Our approach vs Gemini 2.5 Flash raw text,Delta_F1,0.4265412748171369
+significance,Our approach vs Gemini 2.5 Flash raw text,CI95_low,0.2642187102356594
+significance,Our approach vs Gemini 2.5 Flash raw text,CI95_high,0.5717176737120557
+significance,Our approach vs Gemini 2.5 Flash raw text,Exact_McNemar_p_related,0.3876953125
+significance,Our approach vs Gemini 2.5 Flash raw text,McNemar_accuracy_p,0.0
+significance,Our approach vs GPT-4o WHAT+HOW with definitions R1,Delta_F1,0.3213438735177866
+significance,Our approach vs GPT-4o WHAT+HOW with definitions R1,CI95_low,0.12545072244097732
+significance,Our approach vs GPT-4o WHAT+HOW with definitions R1,CI95_high,0.5073925827449399
+significance,Our approach vs GPT-4o WHAT+HOW with definitions R1,Exact_McNemar_p_related,0.803619384765625
+significance,Our approach vs GPT-4o WHAT+HOW with definitions R1,McNemar_accuracy_p,1.4688021496844783e-06
+significance,Our approach vs GPT-4o WHAT+HOW with definitions R2,Delta_F1,0.3452300785634119
+significance,Our approach vs GPT-4o WHAT+HOW with definitions R2,CI95_low,0.14313089804559914
+significance,Our approach vs GPT-4o WHAT+HOW with definitions R2,CI95_high,0.5364960520699957
+significance,Our approach vs GPT-4o WHAT+HOW with definitions R2,Exact_McNemar_p_related,0.332305908203125
+significance,Our approach vs GPT-4o WHAT+HOW with definitions R2,McNemar_accuracy_p,6.228498769633717e-06
+stratified,weighted estimate,P_weighted,0.7037037037037037
+stratified,weighted estimate,R_weighted,0.6490660560750536
+stratified,weighted estimate,F1_weighted,0.6752814871956802
+stratified,weighted estimate,F1_CI95_low,0.5106300354064978
+stratified,weighted estimate,F1_CI95_high,0.8090510468684932
+adelie_optional,ADELIE vs ours,scored_pairs,222.0
+adelie_optional,ADELIE vs ours,F1_adelie_cv,0.25
+adelie_optional,ADELIE vs ours,F1_ours_same_pairs,0.6363636363636364
+adelie_optional,ADELIE vs ours,Delta_F1,0.38636363636363635
+adelie_optional,ADELIE vs ours,CI95_low,0.17199617860674693
+adelie_optional,ADELIE vs ours,CI95_high,0.58716611819553
+llm_errors,Our approach,FP,8.0
+llm_errors,Our approach,FP_alt,6.0
+llm_errors,Our approach,FP_similar,2.0
+llm_errors,Our approach,TN,204.0
+llm_errors,Our approach,FP_shared,1.0
+llm_errors,Our approach,TN_shared,0.6421568627450981
+llm_errors,Our approach,SBERT_FP,0.483421
+llm_errors,Our approach,SBERT_TN,0.37570680882352947
+llm_errors,Our approach,Shared_disjoint_labelled_related,0.05755395683453238
+llm_errors,GPT4o_raw_R1,FP,117.0
+llm_errors,GPT4o_raw_R1,FP_alt,73.0
+llm_errors,GPT4o_raw_R1,FP_similar,39.0
+llm_errors,GPT4o_raw_R1,TN,95.0
+llm_errors,GPT4o_raw_R1,FP_shared,0.8803418803418803
+llm_errors,GPT4o_raw_R1,TN_shared,0.37894736842105264
+llm_errors,GPT4o_raw_R1,SBERT_FP,0.45656629059829057
+llm_errors,GPT4o_raw_R1,SBERT_TN,0.2851926421052631
+llm_errors,GPT4o_raw_R1,Shared_disjoint_labelled_related,0.7410071942446043
+llm_errors,GPT4o_raw_R2,FP,109.0
+llm_errors,GPT4o_raw_R2,FP_alt,70.0
+llm_errors,GPT4o_raw_R2,FP_similar,37.0
+llm_errors,GPT4o_raw_R2,TN,103.0
+llm_errors,GPT4o_raw_R2,FP_shared,0.8899082568807339
+llm_errors,GPT4o_raw_R2,TN_shared,0.4077669902912621
+llm_errors,GPT4o_raw_R2,SBERT_FP,0.46039288990825683
+llm_errors,GPT4o_raw_R2,SBERT_TN,0.29445370873786403
+llm_errors,GPT4o_raw_R2,Shared_disjoint_labelled_related,0.697841726618705
+llm_errors,GPT4o_WHATHOW_R1,FP,146.0
+llm_errors,GPT4o_WHATHOW_R1,FP_alt,29.0
+llm_errors,GPT4o_WHATHOW_R1,FP_similar,116.0
+llm_errors,GPT4o_WHATHOW_R1,TN,66.0
+llm_errors,GPT4o_WHATHOW_R1,FP_shared,0.815068493150685
+llm_errors,GPT4o_WHATHOW_R1,TN_shared,0.30303030303030304
+llm_errors,GPT4o_WHATHOW_R1,SBERT_FP,0.4328557191780822
+llm_errors,GPT4o_WHATHOW_R1,SBERT_TN,0.2623427575757576
+llm_errors,GPT4o_WHATHOW_R1,Shared_disjoint_labelled_related,0.8561151079136691
+llm_errors,GPT4o_WHATHOW_R2,FP,139.0
+llm_errors,GPT4o_WHATHOW_R2,FP_alt,53.0
+llm_errors,GPT4o_WHATHOW_R2,FP_similar,86.0
+llm_errors,GPT4o_WHATHOW_R2,TN,73.0
+llm_errors,GPT4o_WHATHOW_R2,FP_shared,0.8201438848920863
+llm_errors,GPT4o_WHATHOW_R2,TN_shared,0.3424657534246575
+llm_errors,GPT4o_WHATHOW_R2,SBERT_FP,0.439180964028777
+llm_errors,GPT4o_WHATHOW_R2,SBERT_TN,0.26664935616438357
+llm_errors,GPT4o_WHATHOW_R2,Shared_disjoint_labelled_related,0.8201438848920863
+llm_errors,GPT4o_WHATHOW_def_R1,FP,47.0
+llm_errors,GPT4o_WHATHOW_def_R1,FP_alt,7.0
+llm_errors,GPT4o_WHATHOW_def_R1,FP_similar,40.0
+llm_errors,GPT4o_WHATHOW_def_R1,TN,165.0
+llm_errors,GPT4o_WHATHOW_def_R1,FP_shared,0.9574468085106383
+llm_errors,GPT4o_WHATHOW_def_R1,TN_shared,0.5696969696969697
+llm_errors,GPT4o_WHATHOW_def_R1,SBERT_FP,0.5071424680851064
+llm_errors,GPT4o_WHATHOW_def_R1,SBERT_TN,0.3434900666666667
+llm_errors,GPT4o_WHATHOW_def_R1,Shared_disjoint_labelled_related,0.3237410071942446
+llm_errors,GPT4o_WHATHOW_def_R2,FP,39.0
+llm_errors,GPT4o_WHATHOW_def_R2,FP_alt,6.0
+llm_errors,GPT4o_WHATHOW_def_R2,FP_similar,32.0
+llm_errors,GPT4o_WHATHOW_def_R2,TN,173.0
+llm_errors,GPT4o_WHATHOW_def_R2,FP_shared,0.9230769230769231
+llm_errors,GPT4o_WHATHOW_def_R2,TN_shared,0.5953757225433526
+llm_errors,GPT4o_WHATHOW_def_R2,SBERT_FP,0.5097835384615385
+llm_errors,GPT4o_WHATHOW_def_R2,SBERT_TN,0.3504624219653179
+llm_errors,GPT4o_WHATHOW_def_R2,Shared_disjoint_labelled_related,0.2589928057553957
+llm_errors,Claude_Sonnet55,FP,63.0
+llm_errors,Claude_Sonnet55,FP_alt,36.0
+llm_errors,Claude_Sonnet55,FP_similar,23.0
+llm_errors,Claude_Sonnet55,TN,149.0
+llm_errors,Claude_Sonnet55,FP_shared,0.9365079365079365
+llm_errors,Claude_Sonnet55,TN_shared,0.5369127516778524
+llm_errors,Claude_Sonnet55,SBERT_FP,0.5065628888888889
+llm_errors,Claude_Sonnet55,SBERT_TN,0.326161711409396
+llm_errors,Claude_Sonnet55,Shared_disjoint_labelled_related,0.4244604316546763
+llm_errors,Gemini25Flash,FP,123.0
+llm_errors,Gemini25Flash,FP_alt,8.0
+llm_errors,Gemini25Flash,FP_similar,114.0
+llm_errors,Gemini25Flash,TN,89.0
+llm_errors,Gemini25Flash,FP_shared,0.9349593495934959
+llm_errors,Gemini25Flash,TN_shared,0.2696629213483146
+llm_errors,Gemini25Flash,SBERT_FP,0.45767414634146336
+llm_errors,Gemini25Flash,SBERT_TN,0.27210828089887645
+llm_errors,Gemini25Flash,Shared_disjoint_labelled_related,0.8273381294964028
+cascade_order,Linguistic > Content > Terminology,Linked,36.0
+cascade_order,Linguistic > Content > Terminology,Reported_Linguistic,23.0
+cascade_order,Linguistic > Content > Terminology,Reported_Content,13.0
+cascade_order,Linguistic > Content > Terminology,Reported_Terminology,0.0
+cascade_order,Linguistic > Content > Terminology,Calls,457.0
+cascade_order,Linguistic > Terminology > Content,Linked,36.0
+cascade_order,Linguistic > Terminology > Content,Reported_Linguistic,23.0
+cascade_order,Linguistic > Terminology > Content,Reported_Content,13.0
+cascade_order,Linguistic > Terminology > Content,Reported_Terminology,0.0
+cascade_order,Linguistic > Terminology > Content,Calls,470.0
+cascade_order,Content > Linguistic > Terminology,Linked,36.0
+cascade_order,Content > Linguistic > Terminology,Reported_Linguistic,12.0
+cascade_order,Content > Linguistic > Terminology,Reported_Content,24.0
+cascade_order,Content > Linguistic > Terminology,Reported_Terminology,0.0
+cascade_order,Content > Linguistic > Terminology,Calls,456.0
+cascade_order,Content > Terminology > Linguistic,Linked,36.0
+cascade_order,Content > Terminology > Linguistic,Reported_Linguistic,12.0
+cascade_order,Content > Terminology > Linguistic,Reported_Content,24.0
+cascade_order,Content > Terminology > Linguistic,Reported_Terminology,0.0
+cascade_order,Content > Terminology > Linguistic,Calls,468.0
+cascade_order,Terminology > Linguistic > Content,Linked,36.0
+cascade_order,Terminology > Linguistic > Content,Reported_Linguistic,17.0
+cascade_order,Terminology > Linguistic > Content,Reported_Content,13.0
+cascade_order,Terminology > Linguistic > Content,Reported_Terminology,6.0
+cascade_order,Terminology > Linguistic > Content,Calls,487.0
+cascade_order,Terminology > Content > Linguistic,Linked,36.0
+cascade_order,Terminology > Content > Linguistic,Reported_Linguistic,12.0
+cascade_order,Terminology > Content > Linguistic,Reported_Content,18.0
+cascade_order,Terminology > Content > Linguistic,Reported_Terminology,6.0
+cascade_order,Terminology > Content > Linguistic,Calls,486.0
+screening,shared content word,all_pairs,1326.0
+screening,shared content word,kept,446.0
+screening,shared content word,avoided,0.6636500754147813
+screening,shared content word,related,28.0
+screening,shared content word,related_kept,27.0
+table6_confusion,reference=disjoint,system=disjoint,204.0
+table6_confusion,reference=disjoint,system=alternative-solution,6.0
+table6_confusion,reference=disjoint,system=similar,2.0
+table6_confusion,reference=disjoint,system=duplicate,0.0
+table6_confusion,reference=disjoint,system=generalises,0.0
+table6_confusion,reference=alternative-solution,system=disjoint,6.0
+table6_confusion,reference=alternative-solution,system=alternative-solution,16.0
+table6_confusion,reference=alternative-solution,system=similar,0.0
+table6_confusion,reference=alternative-solution,system=duplicate,0.0
+table6_confusion,reference=alternative-solution,system=generalises,0.0
+table6_confusion,reference=similar,system=disjoint,3.0
+table6_confusion,reference=similar,system=alternative-solution,0.0
+table6_confusion,reference=similar,system=similar,2.0
+table6_confusion,reference=similar,system=duplicate,0.0
+table6_confusion,reference=similar,system=generalises,0.0
+table6_confusion,reference=duplicate,system=disjoint,0.0
+table6_confusion,reference=duplicate,system=alternative-solution,0.0
+table6_confusion,reference=duplicate,system=similar,0.0
+table6_confusion,reference=duplicate,system=duplicate,1.0
+table6_confusion,reference=duplicate,system=generalises,0.0
+table6_confusion,reference=generalises,system=disjoint,0.0
+table6_confusion,reference=generalises,system=alternative-solution,0.0
+table6_confusion,reference=generalises,system=similar,0.0
+table6_confusion,reference=generalises,system=duplicate,0.0
+table6_confusion,reference=generalises,system=generalises,0.0
+table7_perclass,disjoint,P,0.9577464788732394
+table7_perclass,disjoint,P_low,0.9216609540108867
+table7_perclass,disjoint,P_high,0.9776135712852535
+table7_perclass,disjoint,R,0.9622641509433962
+table7_perclass,disjoint,R_low,0.9273171115134141
+table7_perclass,disjoint,R_high,0.9807568100393124
+table7_perclass,disjoint,F1,0.96
+table7_perclass,alternative-solution,P,0.7272727272727273
+table7_perclass,alternative-solution,P_low,0.5184826582032106
+table7_perclass,alternative-solution,P_high,0.8684923978853596
+table7_perclass,alternative-solution,R,0.7272727272727273
+table7_perclass,alternative-solution,R_low,0.5184826582032106
+table7_perclass,alternative-solution,R_high,0.8684923978853596
+table7_perclass,alternative-solution,F1,0.7272727272727273
+table7_perclass,similar,P,0.5
+table7_perclass,similar,P_low,0.15003898774401983
+table7_perclass,similar,P_high,0.8499610122559802
+table7_perclass,similar,R,0.4
+table7_perclass,similar,R_low,0.11762077314099711
+table7_perclass,similar,R_high,0.7692757205908813
+table7_perclass,similar,F1,0.4444444444444445
+table7_perclass,duplicate,P,1.0
+table7_perclass,duplicate,P_low,0.20654931179180275
+table7_perclass,duplicate,P_high,1.0
+table7_perclass,duplicate,R,1.0
+table7_perclass,duplicate,R_low,0.20654931179180275
+table7_perclass,duplicate,R_high,1.0
+table7_perclass,duplicate,F1,1.0
+table8_rule_coverage,Alternative-solution rule,pairs,22.0
+table8_rule_coverage,Alternative-solution rule,correct,16.0
+table8_rule_coverage,Similar rule,pairs,4.0
+table8_rule_coverage,Similar rule,correct,2.0
+table8_rule_coverage,Duplicate rule,pairs,1.0
+table8_rule_coverage,Duplicate rule,correct,1.0
+table8_rule_coverage,Explicit Disjoint rule,pairs,12.0
+table8_rule_coverage,Explicit Disjoint rule,correct,12.0
+table8_rule_coverage,All determined pairs,pairs,39.0
+table8_rule_coverage,All determined pairs,correct,31.0
+table8_rule_coverage,"Undetermined pairs (default, Disjoint)",pairs,201.0
+table8_rule_coverage,"Undetermined pairs (default, Disjoint)",correct,192.0
+table8_rule_coverage,determined pairs only,F1,0.8260869565217391
+table9_counts,Human reference,similar,5.0
+table9_counts,Human reference,alternative-solution,22.0
+table9_counts,Human reference,disjoint,212.0
+table9_counts,Human reference,duplicate,1.0
+table9_counts,Human reference,generalises,0.0
+table9_counts,Human reference,Total,240.0
+table9_counts,Our approach,similar,4.0
+table9_counts,Our approach,alternative-solution,22.0
+table9_counts,Our approach,disjoint,213.0
+table9_counts,Our approach,duplicate,1.0
+table9_counts,Our approach,generalises,0.0
+table9_counts,Our approach,Total,240.0
+table9_counts,Dandelion API (0.75),similar,22.0
+table9_counts,Dandelion API (0.75),alternative-solution,0.0
+table9_counts,Dandelion API (0.75),disjoint,218.0
+table9_counts,Dandelion API (0.75),duplicate,0.0
+table9_counts,Dandelion API (0.75),generalises,0.0
+table9_counts,Dandelion API (0.75),Total,240.0
+table9_counts,SBERT raw text (0.75),similar,6.0
+table9_counts,SBERT raw text (0.75),alternative-solution,0.0
+table9_counts,SBERT raw text (0.75),disjoint,234.0
+table9_counts,SBERT raw text (0.75),duplicate,0.0
+table9_counts,SBERT raw text (0.75),generalises,0.0
+table9_counts,SBERT raw text (0.75),Total,240.0
+table9_counts,TF-IDF (5-fold CV threshold),similar,24.0
+table9_counts,TF-IDF (5-fold CV threshold),alternative-solution,0.0
+table9_counts,TF-IDF (5-fold CV threshold),disjoint,216.0
+table9_counts,TF-IDF (5-fold CV threshold),duplicate,0.0
+table9_counts,TF-IDF (5-fold CV threshold),generalises,0.0
+table9_counts,TF-IDF (5-fold CV threshold),Total,240.0
+table9_counts,GPT4o_raw_R1,similar,49.0
+table9_counts,GPT4o_raw_R1,alternative-solution,81.0
+table9_counts,GPT4o_raw_R1,disjoint,99.0
+table9_counts,GPT4o_raw_R1,duplicate,5.0
+table9_counts,GPT4o_raw_R1,generalises,6.0
+table9_counts,GPT4o_raw_R1,Total,240.0
+table9_counts,GPT4o_raw_R2,similar,47.0
+table9_counts,GPT4o_raw_R2,alternative-solution,79.0
+table9_counts,GPT4o_raw_R2,disjoint,107.0
+table9_counts,GPT4o_raw_R2,duplicate,5.0
+table9_counts,GPT4o_raw_R2,generalises,2.0
+table9_counts,GPT4o_raw_R2,Total,240.0
+table9_counts,GPT4o_WHATHOW_R1,similar,135.0
+table9_counts,GPT4o_WHATHOW_R1,alternative-solution,31.0
+table9_counts,GPT4o_WHATHOW_R1,disjoint,69.0
+table9_counts,GPT4o_WHATHOW_R1,duplicate,4.0
+table9_counts,GPT4o_WHATHOW_R1,generalises,1.0
+table9_counts,GPT4o_WHATHOW_R1,Total,240.0
+table9_counts,GPT4o_WHATHOW_R2,similar,100.0
+table9_counts,GPT4o_WHATHOW_R2,alternative-solution,58.0
+table9_counts,GPT4o_WHATHOW_R2,disjoint,79.0
+table9_counts,GPT4o_WHATHOW_R2,duplicate,3.0
+table9_counts,GPT4o_WHATHOW_R2,generalises,0.0
+table9_counts,GPT4o_WHATHOW_R2,Total,240.0
+table9_counts,Claude_Sonnet55,similar,32.0
+table9_counts,Claude_Sonnet55,alternative-solution,42.0
+table9_counts,Claude_Sonnet55,disjoint,157.0
+table9_counts,Claude_Sonnet55,duplicate,7.0
+table9_counts,Claude_Sonnet55,generalises,2.0
+table9_counts,Claude_Sonnet55,Total,240.0
+table9_counts,Gemini25Flash,similar,126.0
+table9_counts,Gemini25Flash,alternative-solution,14.0
+table9_counts,Gemini25Flash,disjoint,94.0
+table9_counts,Gemini25Flash,duplicate,4.0
+table9_counts,Gemini25Flash,generalises,2.0
+table9_counts,Gemini25Flash,Total,240.0
+table9_counts,GPT4o_WHATHOW_def_R1,similar,50.0
+table9_counts,GPT4o_WHATHOW_def_R1,alternative-solution,11.0
+table9_counts,GPT4o_WHATHOW_def_R1,disjoint,176.0
+table9_counts,GPT4o_WHATHOW_def_R1,duplicate,3.0
+table9_counts,GPT4o_WHATHOW_def_R1,generalises,0.0
+table9_counts,GPT4o_WHATHOW_def_R1,Total,240.0
+table9_counts,GPT4o_WHATHOW_def_R2,similar,40.0
+table9_counts,GPT4o_WHATHOW_def_R2,alternative-solution,7.0
+table9_counts,GPT4o_WHATHOW_def_R2,disjoint,187.0
+table9_counts,GPT4o_WHATHOW_def_R2,duplicate,2.0
+table9_counts,GPT4o_WHATHOW_def_R2,generalises,4.0
+table9_counts,GPT4o_WHATHOW_def_R2,Total,240.0
+table12_sweep,SBERT raw text,F1@0.05,0.208955223880597
+table12_sweep,SBERT raw text,F1@0.10,0.208955223880597
+table12_sweep,SBERT raw text,F1@0.15,0.21789883268482488
+table12_sweep,SBERT raw text,F1@0.20,0.22314049586776855
+table12_sweep,SBERT raw text,F1@0.25,0.23893805309734514
+table12_sweep,SBERT raw text,F1@0.30,0.25510204081632654
+table12_sweep,SBERT raw text,F1@0.35,0.27218934911242604
+table12_sweep,SBERT raw text,F1@0.40,0.29931972789115646
+table12_sweep,SBERT raw text,F1@0.45,0.3529411764705882
+table12_sweep,SBERT raw text,F1@0.50,0.37209302325581395
+table12_sweep,SBERT raw text,F1@0.55,0.43478260869565216
+table12_sweep,SBERT raw text,F1@0.60,0.4444444444444445
+table12_sweep,SBERT raw text,F1@0.65,0.37209302325581395
+table12_sweep,SBERT raw text,F1@0.70,0.2777777777777778
+table12_sweep,SBERT raw text,F1@0.75,0.29411764705882354
+table12_sweep,SBERT raw text,F1@0.80,0.25
+table12_sweep,SBERT raw text,F1@0.85,0.13333333333333333
+table12_sweep,SBERT raw text,F1@0.90,0.0
+table12_sweep,SBERT raw text,F1@0.95,0.0
+table12_sweep,SBERT WHAT+HOW,F1@0.05,0.208955223880597
+table12_sweep,SBERT WHAT+HOW,F1@0.10,0.21132075471698114
+table12_sweep,SBERT WHAT+HOW,F1@0.15,0.2151394422310757
+table12_sweep,SBERT WHAT+HOW,F1@0.20,0.22413793103448273
+table12_sweep,SBERT WHAT+HOW,F1@0.25,0.24154589371980675
+table12_sweep,SBERT WHAT+HOW,F1@0.30,0.2528735632183908
+table12_sweep,SBERT WHAT+HOW,F1@0.35,0.2695035460992908
+table12_sweep,SBERT WHAT+HOW,F1@0.40,0.3106796116504854
+table12_sweep,SBERT WHAT+HOW,F1@0.45,0.38461538461538464
+table12_sweep,SBERT WHAT+HOW,F1@0.50,0.3389830508474576
+table12_sweep,SBERT WHAT+HOW,F1@0.55,0.40909090909090917
+table12_sweep,SBERT WHAT+HOW,F1@0.60,0.45000000000000007
+table12_sweep,SBERT WHAT+HOW,F1@0.65,0.43243243243243246
+table12_sweep,SBERT WHAT+HOW,F1@0.70,0.34285714285714286
+table12_sweep,SBERT WHAT+HOW,F1@0.75,0.29411764705882354
+table12_sweep,SBERT WHAT+HOW,F1@0.80,0.30303030303030304
+table12_sweep,SBERT WHAT+HOW,F1@0.85,0.0689655172413793
+table12_sweep,SBERT WHAT+HOW,F1@0.90,0.0
+table12_sweep,SBERT WHAT+HOW,F1@0.95,0.0
+table12_sweep,Dandelion,F1@0.05,0.22499999999999998
+table12_sweep,Dandelion,F1@0.10,0.22784810126582278
+table12_sweep,Dandelion,F1@0.15,0.2358078602620087
+table12_sweep,Dandelion,F1@0.20,0.25
+table12_sweep,Dandelion,F1@0.25,0.2639593908629442
+table12_sweep,Dandelion,F1@0.30,0.2696629213483146
+table12_sweep,Dandelion,F1@0.35,0.2732919254658385
+table12_sweep,Dandelion,F1@0.40,0.3142857142857143
+table12_sweep,Dandelion,F1@0.45,0.36065573770491804
+table12_sweep,Dandelion,F1@0.50,0.4117647058823529
+table12_sweep,Dandelion,F1@0.55,0.40476190476190477
+table12_sweep,Dandelion,F1@0.60,0.43478260869565216
+table12_sweep,Dandelion,F1@0.65,0.32727272727272727
+table12_sweep,Dandelion,F1@0.70,0.28
+table12_sweep,Dandelion,F1@0.75,0.28
+table12_sweep,Dandelion,F1@0.80,0.18181818181818182
+table12_sweep,Dandelion,F1@0.85,0.0689655172413793
+table12_sweep,Dandelion,F1@0.90,0.0
+table12_sweep,Dandelion,F1@0.95,0.0
+table12_sweep,TF-IDF,F1@0.05,0.375
+table12_sweep,TF-IDF,F1@0.10,0.46153846153846156
+table12_sweep,TF-IDF,F1@0.15,0.49230769230769234
+table12_sweep,TF-IDF,F1@0.20,0.5283018867924528
+table12_sweep,TF-IDF,F1@0.25,0.39999999999999997
+table12_sweep,TF-IDF,F1@0.30,0.3333333333333333
+table12_sweep,TF-IDF,F1@0.35,0.3157894736842105
+table12_sweep,TF-IDF,F1@0.40,0.23529411764705882
+table12_sweep,TF-IDF,F1@0.45,0.25
+table12_sweep,TF-IDF,F1@0.50,0.25
+table12_sweep,TF-IDF,F1@0.55,0.25
+table12_sweep,TF-IDF,F1@0.60,0.25
+table12_sweep,TF-IDF,F1@0.65,0.19354838709677416
+table12_sweep,TF-IDF,F1@0.70,0.13333333333333333
+table12_sweep,TF-IDF,F1@0.75,0.0
+table12_sweep,TF-IDF,F1@0.80,0.0
+table12_sweep,TF-IDF,F1@0.85,0.0
+table12_sweep,TF-IDF,F1@0.90,0.0
+table12_sweep,TF-IDF,F1@0.95,0.0
+table13_cross,Dandelion disjoint,alternative-solution,16.0
+table13_cross,Dandelion disjoint,disjoint,202.0
+table13_cross,Dandelion disjoint,similar or duplicate,0.0
+table13_cross,Dandelion disjoint,Total,218.0
+table13_cross,Dandelion similar,alternative-solution,6.0
+table13_cross,Dandelion similar,disjoint,11.0
+table13_cross,Dandelion similar,similar or duplicate,5.0
+table13_cross,Dandelion similar,Total,22.0
+table13_cross,Total,alternative-solution,22.0
+table13_cross,Total,disjoint,213.0
+table13_cross,Total,similar or duplicate,5.0
+table13_cross,Total,Total,240.0
+tables16_18_matchers,Table 16 nouns Linguistic,Precision,1.0
+tables16_18_matchers,Table 16 nouns Linguistic,Recall,0.631578947368421
+tables16_18_matchers,Table 16 nouns Linguistic,F1,0.7741935483870968
+tables16_18_matchers,Table 16 nouns Content,Precision,1.0
+tables16_18_matchers,Table 16 nouns Content,Recall,0.47368421052631576
+tables16_18_matchers,Table 16 nouns Content,F1,0.6428571428571429
+tables16_18_matchers,Table 16 nouns Terminology,Precision,1.0
+tables16_18_matchers,Table 16 nouns Terminology,Recall,0.05263157894736842
+tables16_18_matchers,Table 16 nouns Terminology,F1,0.1
+tables16_18_matchers,Table 17 predicates Linguistic,Precision,1.0
+tables16_18_matchers,Table 17 predicates Linguistic,Recall,1.0
+tables16_18_matchers,Table 17 predicates Linguistic,F1,1.0
+tables16_18_matchers,Table 17 predicates Content,Precision,1.0
+tables16_18_matchers,Table 17 predicates Content,Recall,0.7142857142857143
+tables16_18_matchers,Table 17 predicates Content,F1,0.8333333333333333
+tables16_18_matchers,Table 17 predicates Terminology,Precision,1.0
+tables16_18_matchers,Table 17 predicates Terminology,Recall,0.7142857142857143
+tables16_18_matchers,Table 17 predicates Terminology,F1,0.8333333333333333
+tables16_18_matchers,Table 18 sequences of words Linguistic,Precision,1.0
+tables16_18_matchers,Table 18 sequences of words Linguistic,Recall,0.4
+tables16_18_matchers,Table 18 sequences of words Linguistic,F1,0.5714285714285715
+tables16_18_matchers,Table 18 sequences of words Content,Precision,1.0
+tables16_18_matchers,Table 18 sequences of words Content,Recall,1.0
+tables16_18_matchers,Table 18 sequences of words Content,F1,1.0
+tables16_18_matchers,Table 18 sequences of words Terminology,Precision,0.0
+tables16_18_matchers,Table 18 sequences of words Terminology,Recall,0.0
+tables16_18_matchers,Table 18 sequences of words Terminology,F1,0.0
+table19_calibration,Linguistic,all,0.7796610169491526
+table19_calibration,Linguistic,train,0.8
+table19_calibration,Linguistic,test,0.6666666666666666
+table19_calibration,Content,all,0.8
+table19_calibration,Content,train,0.8
+table19_calibration,Content,test,0.8
+table19_calibration,Terminology,all,0.2857142857142857
+table19_calibration,Terminology,train,0.2857142857142857
+table19_calibration,Terminology,test,0.2857142857142857
+table23_upper_bound,0 of 9 recovered,F1,0.6909090909090909
+table23_upper_bound,3 of 9 recovered,F1,0.7586206896551724
+table23_upper_bound,5 of 9 recovered,F1,0.7999999999999999
+table23_upper_bound,9 of 9 recovered,F1,0.8750000000000001

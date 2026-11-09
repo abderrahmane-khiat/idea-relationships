@@ -1,0 +1,12 @@
+# evaluate.py and the experiment scripts (Python 3.9 or newer)
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+openpyxl>=3.1
+scikit-learn>=1.3
+nltk>=3.8                  # experiments/07_candidate_screening (WordNet lemmatiser)
+
+# Only for the reruns that need them (not needed for evaluate.py):
+# sentence-transformers>=2.2   experiments/01_sbert/run_sbert.py
+# openai / anthropic / google-genai   experiments/03_llm_pair_classification/run_llm_api.py
+# The framework has its own requirements: framework/v1/requirements.txt, framework/v2/requirements.txt

@@ -1,0 +1,7 @@
+# Exact versions used to produce evaluate_output.csv and the [same] checks of experiments/ (Python 3.13.18)
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.1
+openpyxl==3.1.5
+scikit-learn==1.9.1
+nltk==3.10.4

@@ -1,0 +1,7 @@
+The attached file has 70 short phrases (columns Item, Pattern, Text) taken from idea descriptions.
+For EACH phrase, extract ONE subject-predicate-object triple.
+Rules:
+- Use words from the phrase. Keep subject and object short noun phrases. The predicate is the verb or relation.
+- If the phrase has no clear subject AND predicate AND object (for example a single term or a bare noun phrase), answer NONE.
+- Do NOT write or run code. Do not use any script. Read each phrase yourself. Ignore every other column of the file.
+- Work in blocks of 35 rows. For each block output a table with the columns: Item, Subject, Predicate, Object (or NONE). Then stop and wait until I write "next".

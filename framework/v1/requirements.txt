@@ -1,0 +1,16 @@
+# core (terminal version)
+nltk>=3.8
+numpy>=1.24
+gensim>=4.3
+spacy>=3.7
+openpyxl>=3.1
+# web version
+fastapi>=0.110
+uvicorn>=0.27
+# tests
+pytest>=7
+httpx>=0.27
+# optional: local LLM extractor ADELIE (large download, GPU recommended)
+# transformers>=4.40
+# torch>=2.1
+# accelerate>=0.27

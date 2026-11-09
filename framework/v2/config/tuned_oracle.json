@@ -1,0 +1,58 @@
+{
+  "extractor": "spacy",
+  "extractor_fallback": "heuristic",
+  "implicit_how_subject": true,
+  "cascade": {
+    "order": [
+      "structure",
+      "linguistic",
+      "content",
+      "terminology"
+    ],
+    "enabled": [
+      "structure",
+      "linguistic",
+      "content",
+      "terminology"
+    ]
+  },
+  "thresholds": {
+    "linguistic": 0.6,
+    "content": 0.8,
+    "terminology": 0.85
+  },
+  "structure": {
+    "backend": "wordnet",
+    "max_hypernym_depth": 6,
+    "sparql_endpoint": "http://localhost:9999/blazegraph/namespace/wdq/sparql",
+    "taxonomy_file": "",
+    "try_modifiers": true
+  },
+  "linguistic": {
+    "ic_corpus": "ic-brown.dat",
+    "lexicon_file": "config/lexicon.json"
+  },
+  "content": {
+    "backend": "gensim",
+    "vectors": "glove-wiki-gigaword-100",
+    "vectors_file": "",
+    "sentence_method": "average"
+  },
+  "corenlp": {
+    "url": "http://localhost:9000"
+  },
+  "adelie": {
+    "model": "THU-KEG/ADELIE-SFT-3B",
+    "max_new_tokens": 64
+  },
+  "ollama": {
+    "url": "http://localhost:11434",
+    "model": "llama3.1"
+  },
+  "missing_how": "different",
+  "rules": {
+    "sd_vd_od": "appendix",
+    "how_same": "object"
+  },
+  "_comment": "Configuration selected by scripts/tune.py (oracle elements); see results/tuning/tuning_oracle.json"
+}

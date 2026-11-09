@@ -1,0 +1,622 @@
+{
+  "IDEA001": {
+    "WHAT": {
+      "type": "triple",
+      "subject": "capsule",
+      "predicate": "puts itself over",
+      "object": "fire"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "capsule",
+      "predicate": "extinguishes",
+      "object": "fire"
+    }
+  },
+  "IDEA002": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "flying drones"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "drones",
+      "predicate": "pour",
+      "object": "water"
+    }
+  },
+  "IDEA003": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "fire extinguisher"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "fire extinguisher",
+      "predicate": "sprays",
+      "object": "carbon dioxide"
+    }
+  },
+  "IDEA004": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "fireproof furniture"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "furniture",
+      "predicate": "made of",
+      "object": "fire-resistant substance"
+    }
+  },
+  "IDEA005": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "capsules"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "people",
+      "predicate": "jump out of",
+      "object": "building"
+    }
+  },
+  "IDEA006": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "thermal insulation doors"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "doors",
+      "predicate": "contain",
+      "object": "fire"
+    }
+  },
+  "IDEA007": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "waterproof carpet"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "carpet",
+      "predicate": "absorbs",
+      "object": "water"
+    }
+  },
+  "IDEA008": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "waterproof floor"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "floor",
+      "predicate": "absorbs",
+      "object": "water"
+    }
+  },
+  "IDEA009": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "sensory walls"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "walls",
+      "predicate": "raise",
+      "object": "alarm"
+    }
+  },
+  "IDEA010": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "carbon monoxide detector"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "detector",
+      "predicate": "absorbs",
+      "object": "carbon monoxide"
+    }
+  },
+  "IDEA011": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "absorption device"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "device",
+      "predicate": "absorbs",
+      "object": "gas"
+    }
+  },
+  "IDEA012": {
+    "WHAT": {
+      "type": "triple",
+      "subject": "building",
+      "predicate": "has",
+      "object": "variable structure"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "structure",
+      "predicate": "descends to",
+      "object": "ground"
+    }
+  },
+  "IDEA013": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "evacuation alert"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "system",
+      "predicate": "notifies",
+      "object": "occupants"
+    }
+  },
+  "IDEA014": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "intelligent rescue system"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "system",
+      "predicate": "identifies",
+      "object": "accidents"
+    }
+  },
+  "IDEA015": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "water triggers"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "triggers",
+      "predicate": "avoid",
+      "object": "fire propagation"
+    }
+  },
+  "IDEA016": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "fireproof walls"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "walls",
+      "predicate": "painted with",
+      "object": "fireproof substance"
+    }
+  },
+  "IDEA017": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "table"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "table",
+      "predicate": "changes into",
+      "object": "solid box"
+    }
+  },
+  "IDEA018": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "fireproof clothing"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "clothing",
+      "predicate": "hangs with",
+      "object": "fire extinguishers"
+    }
+  },
+  "IDEA019": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "sensory walls"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "walls",
+      "predicate": "raise",
+      "object": "alarm"
+    }
+  },
+  "IDEA020": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "rescue indication floor"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "floor",
+      "predicate": "shows",
+      "object": "exit path"
+    }
+  },
+  "IDEA021": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "rescue drones"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "drones",
+      "predicate": "guide",
+      "object": "people"
+    }
+  },
+  "IDEA022": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "rescue parachutes"
+    },
+    "HOW": {
+      "type": "sequence_of_words",
+      "text": "escape route from high-rise buildings"
+    }
+  },
+  "IDEA023": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "rescue robots"
+    },
+    "HOW": {
+      "type": "sequence_of_words",
+      "text": "activated on the different floors"
+    }
+  },
+  "IDEA024": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "smart watch"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "watch",
+      "predicate": "predicts",
+      "object": "danger"
+    }
+  },
+  "IDEA025": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "rescue closets"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "closet",
+      "predicate": "turns into",
+      "object": "escape elevator"
+    }
+  },
+  "IDEA026": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "intelligent system"
+    },
+    "HOW": {
+      "type": "sequence_of_words",
+      "text": "early detection of threats and rapid evacuation"
+    }
+  },
+  "IDEA027": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "fire department navigation"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "system",
+      "predicate": "identifies",
+      "object": "seat of fire"
+    }
+  },
+  "IDEA028": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "emergency radio"
+    },
+    "HOW": {
+      "type": "sequence_of_words",
+      "text": "instructions about necessary behavior"
+    }
+  },
+  "IDEA029": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "solid exterior space"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "balcony",
+      "predicate": "turns into",
+      "object": "panic room"
+    }
+  },
+  "IDEA030": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "rescue closets"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "closet",
+      "predicate": "used as",
+      "object": "escape elevator"
+    }
+  },
+  "IDEA031": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "magnet panels"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "panels",
+      "predicate": "guide",
+      "object": "persons"
+    }
+  },
+  "IDEA032": {
+    "WHAT": {
+      "type": "triple",
+      "subject": "building",
+      "predicate": "consists of",
+      "object": "variable structure"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "structure",
+      "predicate": "descends to",
+      "object": "ground"
+    }
+  },
+  "IDEA033": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "air bag suits"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "suits",
+      "predicate": "save",
+      "object": "people"
+    }
+  },
+  "IDEA034": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "fireproof suits"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "suits",
+      "predicate": "supplied with",
+      "object": "oxygen bags"
+    }
+  },
+  "IDEA035": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "clothes"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "clothes",
+      "predicate": "cover",
+      "object": "body"
+    }
+  },
+  "IDEA036": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "pillows"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "pillows",
+      "predicate": "wake up",
+      "object": "sleeper"
+    }
+  },
+  "IDEA037": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "carbon monoxide sensitive cells"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "cells",
+      "predicate": "cut",
+      "object": "electricity"
+    }
+  },
+  "IDEA038": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "evacuation application"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "application",
+      "predicate": "forwards",
+      "object": "information"
+    }
+  },
+  "IDEA039": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "steel doors"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "doors",
+      "predicate": "close",
+      "object": "automatically"
+    }
+  },
+  "IDEA040": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "staircase"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "staircase",
+      "predicate": "provides",
+      "object": "exit"
+    }
+  },
+  "IDEA041": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "heat wave mitigation"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "building",
+      "predicate": "regulates",
+      "object": "temperature"
+    }
+  },
+  "IDEA042": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "tunnel system"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "tunnel",
+      "predicate": "leads",
+      "object": "people"
+    }
+  },
+  "IDEA043": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "rescue pipelines"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "pipelines",
+      "predicate": "serve as",
+      "object": "escape route"
+    }
+  },
+  "IDEA044": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "position information"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "system",
+      "predicate": "displays",
+      "object": "evacuation routes"
+    }
+  },
+  "IDEA045": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "scale detection system"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "system",
+      "predicate": "blocks",
+      "object": "elevator"
+    }
+  },
+  "IDEA046": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "protection helmet"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "helmet",
+      "predicate": "transforms into",
+      "object": "airbags"
+    }
+  },
+  "IDEA047": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "retractable stairs"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "stairs",
+      "predicate": "used to escape from",
+      "object": "building"
+    }
+  },
+  "IDEA048": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "robots"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "robots",
+      "predicate": "neutralize",
+      "object": "terrorist"
+    }
+  },
+  "IDEA049": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "toboggans"
+    },
+    "HOW": {
+      "type": "sequence_of_words",
+      "text": "rapid evacuation through toboggan rides"
+    }
+  },
+  "IDEA050": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "oxygen masks"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "masks",
+      "predicate": "dropped down",
+      "object": "automatically"
+    }
+  },
+  "IDEA051": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "intelligent system"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "system",
+      "predicate": "predicts",
+      "object": "danger"
+    }
+  },
+  "IDEA052": {
+    "WHAT": {
+      "type": "single_term",
+      "text": "intelligent alarm system"
+    },
+    "HOW": {
+      "type": "triple",
+      "subject": "system",
+      "predicate": "predicts",
+      "object": "dangerous situations"
+    }
+  }
+}

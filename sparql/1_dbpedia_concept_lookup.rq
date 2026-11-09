@@ -1,0 +1,6 @@
+# Appendix A, query 1: linking a concept with DBpedia (local Blazegraph copy of DBpedia 2022-12).
+# ?concept is bound to the term label before the query is sent, e.g. "facade"@en.
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?resource WHERE {
+  ?resource rdfs:label ?concept
+}

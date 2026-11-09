@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Files written by reruns (the released results are kept)
+*_rerun.csv
+data/*_updated.xlsx
+
+# Office lock files and OS files
+~$*
+.~lock.*#
+.DS_Store
+Thumbs.db

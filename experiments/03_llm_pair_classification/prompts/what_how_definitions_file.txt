@@ -1,0 +1,16 @@
+You will receive a CSV file with 240 pairs of ideas (columns: Pair_ID, Idea1_WHAT, Idea1_HOW, Idea2_WHAT, Idea2_HOW). Every idea answers the same challenge: technical solutions for the security of city buildings (for example, against fire). Each idea is described by two fields:
+- WHAT: what the idea is (the object or system proposed);
+- HOW: how it works.
+
+Classify the relationship between the two ideas of each pair as exactly one of these five labels, using the definitions below:
+- duplicate: the same WHAT and the same HOW; only the wording differs.
+- generalises: one WHAT is a more specific version of the other (it adds a property, a material or a part, e.g. "window composed of heat-sensitive material" and "window"), and the HOW is the same.
+- alternative-solution: the same or a related WHAT, but a different HOW (the same kind of solution, working in another way).
+- similar: different WHATs, but the same or a similar HOW (different solutions that work in the same way).
+- disjoint: different WHATs and different HOWs.
+
+Sharing the topic of the challenge (fire, building, evacuation, people) is not enough for a relation. If neither the WHAT nor the HOW corresponds, the label is disjoint.
+
+Rules: Do NOT write or run code. Do NOT compute similarity, word overlap or any score. Do NOT use a heuristic or a script. Judge every pair by reading it. Judge each pair independently.
+
+Output a two-column table with all 240 rows: Pair_ID, label. Use only these labels: duplicate, generalises, alternative-solution, similar, disjoint.

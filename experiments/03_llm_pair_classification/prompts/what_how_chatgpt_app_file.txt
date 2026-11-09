@@ -1,0 +1,10 @@
+The attached file has 240 pairs of ideas (columns: Pair_ID, Idea1, Idea2).
+
+For EACH pair, read the two ideas yourself and answer this question:
+"Classify the relationship between these two ideas as exactly one of: duplicate / generalises / alternative-solution / similar / disjoint. Idea 1: [Idea1]. Idea 2: [Idea2]. Return only the label, nothing else."
+
+Rules:
+- Do NOT write or run code. Do NOT compute similarity, word overlap or any score. Do NOT use a heuristic or a script. Judge every pair by reading it.
+- Judge each pair independently. No extra definitions are given; use your own understanding of the five labels.
+- Work in blocks of 40 pairs (rows 1-40, then 41-80, and so on). After each block, output a two-column table: Pair_ID, label. Then stop and wait until I write "next".
+- Use only these labels: duplicate, generalises, alternative-solution, similar, disjoint.

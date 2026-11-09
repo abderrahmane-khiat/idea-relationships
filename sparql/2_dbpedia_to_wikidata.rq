@@ -1,0 +1,7 @@
+# Appendix A, query 2: retrieving the Wikidata counterpart of a DBpedia concept.
+# conceptUri is replaced by the DBpedia resource returned by query 1, e.g. <http://dbpedia.org/resource/Facade>.
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT ?obj ?label WHERE {
+  conceptUri (owl:sameAs|^owl:sameAs) ?obj
+  FILTER (CONTAINS(str(?obj), "http://www.wikidata.org"))
+}
